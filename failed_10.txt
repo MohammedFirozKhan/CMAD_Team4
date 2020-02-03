@@ -1,0 +1,1967 @@
+sysLog_pp-r1-mod-pod3_2019_09_04_install_ap_l5hkXpRmZ2admWBilGcfa20b595_TestInstallApplyByReload.test_install_apply_by_reload[iter-1]
+
+
+2019-09-05 09:47:12
+<165>2796: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:02.287 UTC: run_cmd[65559]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-05 09:47:12
+<165>2798: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:02.352 UTC: run_cmd[65559]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-05 09:47:13
+<165>2800: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:02.862 UTC: run_cmd[65590]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-05 09:47:13
+<165>2802: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:02.923 UTC: run_cmd[65590]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-05 09:47:14
+<166>2804: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:04.656 UTC: instorch[193]: %INFRA-INSTALL-6-ACTION_BEGIN : Packaging operation 253.1.1 started - add xr-procmgr 
+
+
+2019-09-05 09:47:18
+<163>2806: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:08.556 UTC: instorch[193]: %INFRA-INSTALL-3-REPO_INACCESSIBLE : Failed to access repository remote_repo with URL file:///misc/disk1/install_rpms_1567598325 
+
+
+2019-09-05 09:47:52
+<166>2808: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:41.830 UTC: instorch[193]: %INFRA-INSTALL-6-NO_CHANGES_MADE : Packaging operation 253.1.1 resulted in no action being taken on any packages 
+
+
+2019-09-05 09:47:52
+<166>2810: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:41.831 UTC: instorch[193]: %INFRA-INSTALL-6-ACTION_COMPLETE : Packaging operation 253.1.1 complete. More packaging operations can be performed, or any current changes can be applied by restart 
+
+
+2019-09-05 09:48:08
+<166>2812: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:58.625 UTC: instorch[193]: %INFRA-INSTALL-6-ACTION_BEGIN : Apply by reload 253.1 started 
+
+
+2019-09-05 09:48:10
+<162>2814: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:59.824 UTC: instorch[193]: %INFRA-INSTALL-2-SYSTEM_RELOAD : As part of an install operation, a full system reload will take place in order to apply the installed software. 
+
+
+2019-09-05 09:48:10
+<164>2816: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:59.832 UTC: fsdbagg[342]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :DECLARE :: Fabric Plane-0 DOWN 
+
+
+2019-09-05 09:48:10
+<165>2818: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:59.832 UTC: fsdbagg[342]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [6019] : Plane 0 state changed to DOWN 
+
+
+2019-09-05 09:48:10
+<163>2820: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:19:59.916 UTC: ledmgr[214]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/18/0 TSI: 9/7/1 8/19/1 
+
+
+2019-09-05 09:48:11
+<166>2822: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:20:00.974 UTC: obflmgr[231]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/11/CPU0 
+
+
+2019-09-05 09:48:11
+<166>2824: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:20:01.055 UTC: obflmgr[148]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/FC0 
+
+
+2019-09-05 09:48:11
+<166>2826: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:20:01.140 UTC: obflmgr[199]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/0/CPU0 
+
+
+2019-09-05 09:48:12
+<166>2828: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:20:02.135 UTC: obflmgr[222]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP0/CPU0 
+
+
+2019-09-05 09:48:12
+<165>2830: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:20:02.558 UTC: pim[1128]: %ROUTING-IPV4_PIM-5-HA_NOTICE : NSR not ready 
+
+
+2019-09-05 09:48:12
+<165>2832: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:20:02.558 UTC: pim6[1129]: %ROUTING-IPV4_PIM-5-HA_NOTICE : NSR not ready 
+
+
+2019-09-05 09:48:15
+<163>2834: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:20:05.058 UTC: rmf_svr[159]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NSRNR :DECLARE :0/RP1/CPU0:  
+
+
+2019-09-05 09:48:42
+<164>2836: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:20:32.709 UTC: esdma[365]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/RP1/RP_SW:  
+
+
+2019-09-05 09:48:42
+<164>2838: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:20:32.758 UTC: esdma[365]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC0/LC_SW:  
+
+
+2019-09-05 09:48:43
+<164>2840: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:20:33.051 UTC: esdma[365]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC11/LC_SW:  
+
+
+2019-09-05 09:48:56
+<166>2842: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:20:46.474 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(119)  
+
+
+2019-09-05 09:48:57
+<166>2844: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:20:46.775 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(261)  
+
+
+2019-09-05 09:48:57
+<166>2846: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:20:47.547 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(283)  
+
+
+2019-09-05 09:48:57
+<166>2848: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:20:47.474 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 7 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-05 09:48:58
+<166>2850: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:20:47.776 UTC: esd[243]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 15 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-05 09:48:58
+<164>2852: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:20:48.667 UTC: esdma[218]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC0/LC_SW:  
+
+
+2019-09-05 09:49:16
+<166>2866: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:06.561 UTC: obflmgr[148]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP1/CPU0 
+
+
+2019-09-05 09:49:17
+<162>2868: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:07.174 UTC: rmf_svr[159]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :DECLARE :0/RP1/CPU0:  
+
+
+2019-09-05 09:49:18
+<166>2870: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:08.602 UTC: processmgr[51]: %MGBL-SCONBKUP-6-INTERNAL_INFO : Reload debug script successfully spawned 
+
+
+2019-09-05 09:49:28
+<163>2872: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:18.693 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/481/0 TSI: 6/1/1 
+
+
+2019-09-05 09:49:28
+<163>2874: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:18.693 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/482/0 TSI: 6/1/1 
+
+
+2019-09-05 09:49:38
+<163>2876: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:28.693 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/481/0 TSI: 6/1/1 
+
+
+2019-09-05 09:49:38
+<163>2878: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:28.693 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/482/0 TSI: 6/1/1 
+
+
+2019-09-05 09:49:48
+<163>2880: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:38.693 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/481/0 TSI: 6/1/1 
+
+
+2019-09-05 09:49:48
+<163>2882: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:38.693 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/482/0 TSI: 6/1/1 
+
+
+2019-09-05 09:49:58
+<163>2884: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:48.693 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/481/0 TSI: 6/1/1 
+
+
+2019-09-05 09:49:58
+<163>2886: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:48.694 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/482/0 TSI: 6/1/1 
+
+
+2019-09-05 09:50:08
+<163>2888: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:58.694 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/481/0 TSI: 6/1/1 
+
+
+2019-09-05 09:50:08
+<163>2890: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:21:58.694 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/482/0 TSI: 6/1/1 
+
+
+2019-09-05 09:50:18
+<166>2892: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:22:08.602 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(272)  
+
+
+2019-09-05 09:50:18
+<163>2894: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:22:08.694 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/481/0 TSI: 6/1/1 
+
+
+2019-09-05 09:50:18
+<163>2896: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:22:08.694 UTC: envmon[238]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/482/0 TSI: 6/1/1 
+
+
+2019-09-05 09:50:21
+<164>2898: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:22:11.402 UTC: shelfmgr[328]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/0/CPU0 for reload operation 
+
+
+2019-09-05 09:50:21
+<164>2900: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:22:11.403 UTC: shelfmgr[328]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/11/CPU0 for reload operation 
+
+
+2019-09-05 09:50:23
+<164>2902: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:22:13.604 UTC: shelfmgr[328]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/FC0 for reload operation 
+
+
+2019-09-05 09:50:23
+<164>2904: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:22:13.604 UTC: shelfmgr[328]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/RP0/CPU0 for reload operation 
+
+
+2019-09-05 09:54:44
+<164>196: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:34.531 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:44
+<164>198: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:34.537 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:44
+<164>200: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:34.543 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:44
+<164>202: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:34.549 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:44
+<164>204: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:34.555 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:44
+<164>206: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:34.568 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:44
+<164>208: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:34.574 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:44
+<166>210: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:26:34.252 UTC: cepki[328]: %SECURITY-PKI-6-LOG_INFO_DETAIL : FIPS POST Successful for  cepki 
+
+
+2019-09-05 09:54:44
+<164>212: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:35.009 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:45
+<166>214: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:26:35.087 UTC: ipsec_mp[242]: %SECURITY-IMP-6-PROC_READY : Process ipsec_mp is ready 
+
+
+2019-09-05 09:54:49
+<164>216: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:39.974 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:49
+<164>218: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:39.980 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:49
+<164>220: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:39.986 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:49
+<164>222: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:39.992 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:49
+<164>224: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:39.998 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:50
+<164>226: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:40.057 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:50
+<164>228: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:40.063 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/0/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:54:52
+<164>230: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:42.597 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/11/CPU0: BIOS chipguard start 
+
+
+2019-09-05 09:54:54
+<164>232: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:44.341 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/11/CPU0: BIOS chipguard end   
+
+
+2019-09-05 09:54:54
+<164>234: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:26:43.957 UTC: snmpd[1001]: %SNMP-SNMP-4-MIBCFGFAIL : mib related config may not take effect, if it's not taken effect need to re-apply it 
+
+
+2019-09-05 09:54:57
+<166>236: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:47.248 UTC: shelfmgr[345]: %PLATFORM-SHELFMGR-6-INFO_LOG : 0/RP1/CPU0 is operational 
+
+
+2019-09-05 09:54:58
+<164>238: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :DECLARE :: Fabric Plane-0 DOWN 
+
+
+2019-09-05 09:54:58
+<164>240: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-1 :DECLARE :: Fabric Plane-1 DOWN 
+
+
+2019-09-05 09:54:58
+<164>242: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-2 :DECLARE :: Fabric Plane-2 DOWN 
+
+
+2019-09-05 09:54:58
+<164>244: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-3 :DECLARE :: Fabric Plane-3 DOWN 
+
+
+2019-09-05 09:54:58
+<164>246: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-4 :DECLARE :: Fabric Plane-4 DOWN 
+
+
+2019-09-05 09:54:58
+<164>248: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-5 :DECLARE :: Fabric Plane-5 DOWN 
+
+
+2019-09-05 09:54:58
+<164>250: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-6 :DECLARE :: Fabric Plane-6 DOWN 
+
+
+2019-09-05 09:54:58
+<164>252: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:48.664 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-7 :DECLARE :: Fabric Plane-7 DOWN 
+
+
+2019-09-05 09:55:09
+<166>254: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:26:59.489 UTC: SSHD_[68127]: %SECURITY-SSHD-6-INFO_SUCCESS : Successfully authenticated user 'cafyauto' from '6.7.142.51' on 'vty0'(cipher 'aes128-ctr', mac 'hmac-sha2-256') 
+
+
+2019-09-05 09:55:10
+<165>256: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:27:00.500 UTC: ntpd[293]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 0.440407(s) 
+
+
+2019-09-05 09:55:14
+<165>258: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:27:04.504 UTC: run_cmd[68179]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-05 09:55:14
+<165>260: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:27:04.595 UTC: run_cmd[68179]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-05 09:55:15
+<165>262: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:27:05.057 UTC: run_cmd[68206]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-05 09:55:15
+<165>264: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:27:05.163 UTC: run_cmd[68206]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-05 09:55:41
+<161>266: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:27:31.755 UTC: rmf_svr[294]: %HA-REDCON-1-STANDBY_READY : standby card is ready 
+
+
+2019-09-05 09:55:41
+<166>268: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:27:31.756 UTC: rmf_svr[158]: %HA-REDCON-6-STBY_STANDBY_READY : This card is standby and is ready 
+
+
+2019-09-05 09:55:51
+<163>270: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:27:41.755 UTC: rmf_svr[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NNR :CLEAR :0/RP0/CPU0:  
+
+
+2019-09-05 09:56:06
+<166>272: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.107 UTC: esd[142]: %INFRA-ESD-6-SWITCH_OPERATIONAL : All configuration is complete and switch is fully operational 
+
+
+2019-09-05 09:56:06
+<166>274: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.110 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 10 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:56:06
+<166>276: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.110 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_UP : The physical link state of the control ethernet switch port 10 has changed. New Link state UP, Admin state: UP 
+
+
+2019-09-05 09:56:06
+<166>278: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.110 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 8 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:56:06
+<166>280: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.110 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 7 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:56:06
+<166>282: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.111 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 4 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:56:06
+<166>284: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.111 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 3 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:56:06
+<166>286: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:27:56.111 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 0 has changed. New Admin state: DOWN, Link state UP 
+
+
+2019-09-05 09:56:14
+<164>288: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:28:03.855 UTC: envmon[136]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :Invalid sensor read error :DECLARE :0/0/CPU0: POL_CORE_N0_I3 has raised an alarm for Invalid Sensor read error 
+
+
+2019-09-05 09:56:14
+<164>290: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:28:03.855 UTC: envmon[136]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :Invalid sensor read error :DECLARE :0/0/CPU0: POL_CORE_N1_I3 has raised an alarm for Invalid Sensor read error 
+
+
+2019-09-05 09:56:25
+<166>292: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:28:14.684 UTC: obflmgr[197]: %PLATFORM-OBFL-6-INFO : Mounted OBFL directory for 0/0/CPU0 
+
+
+2019-09-05 09:56:38
+<166>294: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:17.350 UTC: obflmgr[229]: %PLATFORM-OBFL-6-INFO : Mounted OBFL directory for 0/11/CPU0 
+
+
+2019-09-05 09:56:38
+<166>296: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.003 UTC: esd[241]: %INFRA-ESD-6-SWITCH_OPERATIONAL : All configuration is complete and switch is fully operational 
+
+
+2019-09-05 09:56:38
+<166>298: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.008 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 15 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:56:38
+<166>300: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.008 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 11 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:56:38
+<166>302: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.008 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 10 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:56:38
+<166>304: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.008 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_UP : The physical link state of the control ethernet switch port 10 has changed. New Link state UP, Admin state: UP 
+
+
+2019-09-05 09:56:38
+<166>306: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.008 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 8 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:56:38
+<166>308: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.009 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 7 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:56:38
+<166>310: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.009 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 4 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:56:38
+<166>312: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.009 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 3 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:56:38
+<166>314: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:28:27.009 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 0 has changed. New Admin state: DOWN, Link state UP 
+
+
+2019-09-05 09:56:39
+<164>316: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:28:29.441 UTC: instorch[271]: %INFRA-INSTALL-4-NODES_DROPPED : The following nodes will no longer take part in the ongoing install operation: 0/RP1/CPU0 
+
+
+2019-09-05 09:56:39
+<162>318: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:28:29.442 UTC: instorch[271]: %INFRA-INSTALL-2-UNEXPECTED_NODE_DURING_OP : The node 0/RP1/CPU0 unexpectedly booted during the current install operation. The node will be automatically re-imaged to recover. 
+
+
+2019-09-05 09:56:41
+<166>320: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:28:31.419 UTC: obflmgr[148]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP1/CPU0 
+
+
+2019-09-05 09:56:41
+<163>322: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:28:31.799 UTC: fpd_client[158]: %PLATFORM-CPA_INTF_FPD-3-CPA_ERROR : fpd_info_get for https://10.1.0.2:443/xyz/openbmc_project/software/BmcTamFwGolden/action/fpdinfo, perform_rest_operation rc 404  
+
+
+2019-09-05 09:56:43
+<163>324: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:28:33.149 UTC: fpd_client[158]: %PLATFORM-CPA_INTF_FPD-3-CPA_ERROR : fpd_info_get for https://10.1.0.2:443/xyz/openbmc_project/software/BmcFpgaGolden/action/fpdinfo, perform_rest_operation rc 404  
+
+
+2019-09-05 09:56:43
+<163>326: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:28:33.919 UTC: fpd_client[158]: %PLATFORM-CPA_INTF_FPD-3-CPA_ERROR : fpd_info_get for https://10.1.0.2:443/xyz/openbmc_project/software/BmcTamFw/action/fpdinfo, perform_rest_operation rc 404  
+
+
+2019-09-05 09:56:44
+<163>328: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:28:34.583 UTC: fpd_client[158]: %PLATFORM-CPA_INTF_FPD-3-CPA_ERROR : fpd_info_get for https://10.1.0.2:443/xyz/openbmc_project/software/BmcFpga/action/fpdinfo, perform_rest_operation rc 404  
+
+
+2019-09-05 09:57:11
+<164>330: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:29:01.798 UTC: esdma[216]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC0/LC_SW:  
+
+
+2019-09-05 09:57:11
+<164>332: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:29:01.817 UTC: esdma[216]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/RP0/RP_SW:  
+
+
+2019-09-05 09:57:14
+<166>334: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:03.262 UTC: npu_drvr[257]: %PLATFORM-OFA-6-INFO : NPU #3 Initialization Completed 
+
+
+2019-09-05 09:57:15
+<161>336: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:04.000 UTC: npu_drvr[257]: %PLATFORM-OFA-1-OOR_RED : NPU 0, Table Undefined, Resource central_em 
+
+
+2019-09-05 09:57:15
+<166>338: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:04.001 UTC: npu_drvr[257]: %PLATFORM-OFA-6-INFO : NPU #0 Initialization Completed 
+
+
+2019-09-05 09:57:15
+<161>340: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:04.737 UTC: npu_drvr[257]: %PLATFORM-OFA-1-OOR_RED : NPU 1, Table Undefined, Resource central_em 
+
+
+2019-09-05 09:57:15
+<166>342: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:04.737 UTC: npu_drvr[257]: %PLATFORM-OFA-6-INFO : NPU #1 Initialization Completed 
+
+
+2019-09-05 09:57:16
+<166>344: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:05.469 UTC: npu_drvr[257]: %PLATFORM-OFA-6-INFO : NPU #2 Initialization Completed 
+
+
+2019-09-05 09:57:21
+<166>346: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:10.350 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 7 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:57:21
+<166>348: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:10.626 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 3 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:57:22
+<166>350: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:10.917 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 15 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:57:23
+<166>352: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:12.337 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 11 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:57:23
+<164>354: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:29:13.878 UTC: esdma[216]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC11/LC_SW:  
+
+
+2019-09-05 09:57:26
+<166>356: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep  4 21:29:16.368 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(269)  
+
+
+2019-09-05 09:57:43
+<162>370: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:33.392 UTC: instorch[271]: %INFRA-INSTALL-2-NODE_DOWN : Node 0/RP1/CPU0 went down unexpectedly. This node will be held down and reloaded at the end of the transaction.  The transaction may be able to continue on the remaining nodes. 
+
+
+2019-09-05 09:57:44
+<162>372: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:33.149 UTC: envmon[164]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :low voltage alarm :DECLARE :0/11/CPU0: IBV 
+
+
+2019-09-05 09:57:44
+<166>374: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:29:33.740 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 4 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:57:44
+<166>376: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:33.322 UTC: esd[241]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 4 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:57:45
+<165>378: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/0, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>380: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/1, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>382: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/2, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>384: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/3, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>386: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/4, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>388: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/5, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>390: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/6, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>392: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/7, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>394: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/8, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>396: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/9, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>398: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/10, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>400: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/11, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>402: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/12, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>404: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/13, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>406: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/14, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>408: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/15, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>410: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/16, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>412: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/17, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>414: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/18, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>416: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/19, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>418: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/20, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>420: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/21, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>422: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/22, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>424: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/23, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>426: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/24, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>428: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/25, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>430: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/26, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>432: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/27, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>434: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/28, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>436: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/29, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>438: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/30, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>440: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/31, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>442: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/32, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>444: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/33, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>446: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/34, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>448: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.359 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/35, changed state to Down 
+
+
+2019-09-05 09:57:45
+<165>450: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.362 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/15, changed state to Up 
+
+
+2019-09-05 09:57:45
+<165>452: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.362 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/30, changed state to Up 
+
+
+2019-09-05 09:57:45
+<165>454: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/0, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>456: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/35, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>458: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/34, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>460: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/33, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>462: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/32, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>464: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/31, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>466: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/29, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>468: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/28, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>470: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/27, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>472: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/26, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>474: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/25, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>476: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/24, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>478: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/23, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>480: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/22, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>482: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/21, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>484: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/20, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>486: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/19, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>488: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/18, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>490: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/17, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>492: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/16, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>494: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/14, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>496: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/13, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>498: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/12, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>500: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/11, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>502: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/10, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>504: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/9, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>506: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/8, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>508: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/7, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>510: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/6, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>512: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/5, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>514: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/4, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>516: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/3, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>518: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/2, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>520: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.384 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface FourHundredGigE0/11/0/1, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>522: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.639 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/30, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<165>524: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:29:34.639 UTC: ifmgr[168]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/15, changed state to Administratively Down 
+
+
+2019-09-05 09:57:45
+<162>526: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:35.877 UTC: rmf_svr[294]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :DECLARE :0/RP0/CPU0:  
+
+
+2019-09-05 09:57:56
+<166>528: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:46.877 UTC: shelfmgr[345]: %PLATFORM-SHELFMGR-6-INFO_LOG : 0/11/CPU0 is operational 
+
+
+2019-09-05 09:58:01
+<166>530: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:51.960 UTC: esd[155]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 18 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-05 09:58:01
+<167>532: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:29:51.267 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:pfilter_ea pfilter_ea[166] (pid 8204) has not sent proc-ready within 90 seconds  
+
+
+2019-09-05 09:58:02
+<167>534: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:29:51.368 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:qos_ma_ea qos_ea[250] (pid 8240) has not sent proc-ready within 90 seconds  
+
+
+2019-09-05 09:58:02
+<167>536: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:29:51.659 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : ipv6_nd(1) (jid 179) did not signal end of initialization   
+
+
+2019-09-05 09:58:02
+<167>538: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:29:51.753 UTC: sysmgr_log[66379]: %OS-SYSMGR-7-CHECK_LOG : /pkg/bin/sysmgr_debug_script invoked for: (ipv6_nd) process did not signal EOI and for level:100 . Output is in /var/log/sysmgr_debug/debug.node0_0_CPU0.9023.log 
+
+
+2019-09-05 09:58:03
+<166>540: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:53.186 UTC: esd[155]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 18 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:58:03
+<166>542: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:53.186 UTC: esd[155]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_UP : The physical link state of the control ethernet switch port 18 has changed. New Link state UP, Admin state: UP 
+
+
+2019-09-05 09:58:08
+<164>544: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:58.680 UTC: fsdbagg[242]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :CLEAR :: Fabric Plane-0 DOWN 
+
+
+2019-09-05 09:58:08
+<165>546: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:29:58.681 UTC: fsdbagg[242]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5893] : Plane 0 state changed to UP 
+
+
+2019-09-05 09:58:24
+<161>548: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:13.740 UTC: npu_drvr[119]: %PLATFORM-OFA-1-OOR_RED : NPU 0, Table Undefined, Resource central_em 
+
+
+2019-09-05 09:58:24
+<166>550: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:13.742 UTC: npu_drvr[119]: %PLATFORM-OFA-6-INFO : NPU #0 Initialization Completed 
+
+
+2019-09-05 09:58:25
+<166>552: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.461 UTC: npu_drvr[119]: %PLATFORM-OFA-6-INFO : NPU #1 Initialization Completed 
+
+
+2019-09-05 09:58:25
+<165>554: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/0, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>556: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/1, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>558: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/2, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>560: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/3, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>562: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/4, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>564: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/5, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>566: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/6, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>568: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/7, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>570: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/8, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>572: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/9, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>574: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/10, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>576: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/11, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>578: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/12, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>580: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/13, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>582: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/14, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>584: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/15, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>586: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/16, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>588: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/17, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>590: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/18, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>592: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/19, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>594: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/20, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>596: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/21, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>598: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/22, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>600: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/23, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>602: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/24, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>604: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/25, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>606: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/26, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>608: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/27, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>610: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/28, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>612: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/29, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>614: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/30, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>616: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/31, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>618: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/32, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>620: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/33, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>622: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/34, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>624: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/35, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>626: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/36, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>628: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/37, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>630: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/38, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>632: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/39, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>634: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/40, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>636: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/41, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>638: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/42, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>640: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/43, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>642: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/44, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>644: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/45, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>646: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/46, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>648: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.653 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/47, changed state to Down 
+
+
+2019-09-05 09:58:25
+<165>650: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/0, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>652: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/1, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>654: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/2, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>656: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/3, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>658: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/4, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>660: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/5, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>662: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/8, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>664: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/9, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>666: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/12, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>668: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/13, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>670: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/15, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>672: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/16, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>674: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/17, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>676: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/20, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>678: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/21, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>680: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/22, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>682: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/23, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>684: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/24, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>686: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/25, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>688: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/28, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>690: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/29, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>692: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/30, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>694: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/31, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>696: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/32, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>698: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/33, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>700: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/35, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>702: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/36, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>704: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/37, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>706: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/38, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>708: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/39, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>710: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/41, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>712: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/42, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>714: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/45, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>716: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/46, changed state to Up 
+
+
+2019-09-05 09:58:25
+<165>718: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:14.657 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/47, changed state to Up 
+
+
+2019-09-05 09:58:31
+<166>720: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:20.533 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 7 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:58:31
+<166>722: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:21.254 UTC: shelfmgr[345]: %PLATFORM-SHELFMGR-6-INFO_LOG : 0/0/CPU0 is operational 
+
+
+2019-09-05 09:58:31
+<166>724: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:21.844 UTC: instorch[271]: %INFRA-INSTALL-6-ACTION_COMPLETE : Apply by reload 253.1 complete 
+
+
+2019-09-05 09:58:32
+<166>726: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:21.706 UTC: esd[142]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 3 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-05 09:58:33
+<165>728: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/0, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>730: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/47, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>732: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/46, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>734: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/45, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>736: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/44, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>738: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/43, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>740: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/42, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>742: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/41, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>744: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/40, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>746: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/39, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>748: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/38, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>750: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/37, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>752: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/36, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>754: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/35, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>756: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/34, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>758: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/33, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>760: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/32, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>762: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/31, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>764: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/30, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>766: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/29, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>768: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/28, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>770: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/27, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>772: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/26, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>774: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/25, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>776: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/24, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>778: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/23, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>780: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/22, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>782: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/21, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>784: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/20, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>786: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/19, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>788: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/18, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>790: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/17, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>792: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/16, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>794: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/15, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>796: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/14, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>798: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/13, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>800: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/12, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>802: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/11, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>804: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/10, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>806: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/9, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>808: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/8, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>810: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/7, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>812: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/6, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>814: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/5, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>816: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/4, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>818: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/3, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>820: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/2, changed state to Administratively Down 
+
+
+2019-09-05 09:58:33
+<165>822: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:30:22.670 UTC: ifmgr[138]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/1, changed state to Administratively Down 
+
+
+2019-09-05 09:58:36
+<164>824: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.106 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>826: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.112 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>828: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.118 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>830: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.124 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>832: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.130 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>834: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.145 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>836: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.151 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>838: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.246 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Policy Violation 
+
+
+2019-09-05 09:58:36
+<164>840: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.294 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>842: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.300 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>844: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.306 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>846: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.312 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>848: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.318 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>850: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.332 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>852: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.338 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:36
+<164>854: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:26.433 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Policy Violation 
+
+
+2019-09-05 09:58:37
+<164>856: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:27.081 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:37
+<164>858: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:27.148 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:38
+<164>860: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:28.255 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS chipguard start 
+
+
+2019-09-05 09:58:38
+<164>862: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:28.614 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS chipguard end 
+
+
+2019-09-05 09:58:39
+<164>864: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.761 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:39
+<164>866: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.767 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:39
+<164>868: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.773 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:39
+<164>870: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.779 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:39
+<164>872: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.785 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:39
+<164>874: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.798 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:39
+<164>876: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.804 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:39
+<164>878: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:29.939 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:42
+<164>880: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:32.811 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:42
+<164>882: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:32.817 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:42
+<164>884: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:32.823 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:42
+<164>886: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:32.829 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:42
+<164>888: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:32.835 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:42
+<164>890: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:32.893 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 09:58:42
+<164>892: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:30:32.899 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS Security - Get Variable Length Error 
+
+
+2019-09-05 10:00:00
+<165>894: pp-r1-mod-pod3 LC/0/11/CPU0:Sep  4 21:31:50.848 UTC: ntpdc[166]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 1.112625(s) 
+
+
+2019-09-05 10:00:19
+<165>896: pp-r1-mod-pod3 LC/0/0/CPU0:Sep  4 21:32:09.842 UTC: ntpdc[154]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 0.694126(s) 
+
+
+2019-09-05 10:03:26
+<166>898: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:16.792 UTC: SSHD_[67579]: %SECURITY-SSHD-6-INFO_SUCCESS : Successfully authenticated user 'cafyauto' from '6.1.21.131' on 'vty1'(cipher 'aes128-ctr', mac 'hmac-sha2-256') 
+
+
+2019-09-05 10:03:32
+<165>900: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:22.775 UTC: run_cmd[67619]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:03:32
+<165>902: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:22.827 UTC: run_cmd[67619]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:03:58
+<165>904: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:48.605 UTC: run_cmd[68100]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:03:58
+<165>906: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:48.715 UTC: run_cmd[68100]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:03:59
+<165>908: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:49.185 UTC: run_cmd[68127]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:03:59
+<165>910: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:49.238 UTC: run_cmd[68127]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:04
+<165>912: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:54.835 UTC: run_cmd[68268]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:04
+<165>914: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:54.887 UTC: run_cmd[68268]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:05
+<165>916: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:55.409 UTC: run_cmd[68296]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:05
+<165>918: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:35:55.461 UTC: run_cmd[68296]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:10
+<165>920: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:01.000 UTC: run_cmd[68467]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:11
+<165>922: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:01.053 UTC: run_cmd[68467]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:11
+<165>924: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:01.640 UTC: run_cmd[68534]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:11
+<165>926: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:01.695 UTC: run_cmd[68534]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:17
+<165>928: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:07.364 UTC: run_cmd[68972]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:17
+<165>930: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:07.421 UTC: run_cmd[68972]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:18
+<165>932: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:08.110 UTC: run_cmd[69116]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:18
+<165>934: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:08.164 UTC: run_cmd[69116]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:18
+<165>936: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:08.681 UTC: run_cmd[69347]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:18
+<165>938: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:08.736 UTC: run_cmd[69347]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:24
+<165>940: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:14.342 UTC: run_cmd[66370]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:24
+<165>942: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:14.535 UTC: run_cmd[66370]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:30
+<165>944: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:20.098 UTC: run_cmd[67524]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:30
+<165>946: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:20.170 UTC: run_cmd[67524]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:35
+<165>948: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:25.660 UTC: run_cmd[69441]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:35
+<165>950: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:25.723 UTC: run_cmd[69441]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:41
+<165>952: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:31.266 UTC: run_cmd[67316]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:41
+<165>954: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:31.362 UTC: run_cmd[67316]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:47
+<165>956: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:37.439 UTC: run_cmd[68437]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:47
+<165>958: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:37.515 UTC: run_cmd[68437]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:53
+<165>960: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:43.094 UTC: run_cmd[65622]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:53
+<165>962: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:43.178 UTC: run_cmd[65622]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:04:58
+<165>964: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:48.872 UTC: run_cmd[66761]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:04:58
+<165>966: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:48.937 UTC: run_cmd[66761]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:04
+<165>968: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:54.683 UTC: run_cmd[68240]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:04
+<165>970: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:36:54.746 UTC: run_cmd[68240]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:10
+<165>972: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:00.355 UTC: run_cmd[69250]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:10
+<165>974: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:00.411 UTC: run_cmd[69250]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:15
+<165>976: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:05.960 UTC: run_cmd[66467]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:16
+<165>978: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:06.091 UTC: run_cmd[66467]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:21
+<165>980: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:11.787 UTC: run_cmd[67533]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:21
+<165>982: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:11.906 UTC: run_cmd[67533]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:27
+<165>984: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:17.550 UTC: run_cmd[68417]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:27
+<165>986: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:17.640 UTC: run_cmd[68417]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:33
+<165>988: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:23.173 UTC: run_cmd[69062]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:33
+<165>990: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:23.228 UTC: run_cmd[69062]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:38
+<165>992: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:28.748 UTC: run_cmd[65961]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:38
+<165>994: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:28.817 UTC: run_cmd[65961]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:44
+<165>996: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:34.385 UTC: run_cmd[66745]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:44
+<165>998: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:34.438 UTC: run_cmd[66745]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:49
+<165>1000: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:39.951 UTC: run_cmd[67726]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:50
+<165>1002: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:40.058 UTC: run_cmd[67726]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:05:55
+<165>1004: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:45.555 UTC: run_cmd[68443]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:05:55
+<165>1006: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:45.613 UTC: run_cmd[68443]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:01
+<165>1008: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:51.164 UTC: run_cmd[68942]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:01
+<165>1010: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:51.218 UTC: run_cmd[68942]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:06
+<165>1012: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:56.821 UTC: run_cmd[69066]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:06
+<165>1014: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:37:56.873 UTC: run_cmd[69066]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:12
+<165>1016: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:02.387 UTC: run_cmd[69466]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:12
+<165>1018: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:02.441 UTC: run_cmd[69466]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:18
+<165>1020: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:08.042 UTC: run_cmd[65638]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:18
+<165>1022: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:08.096 UTC: run_cmd[65638]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:23
+<165>1024: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:13.601 UTC: run_cmd[65748]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:23
+<165>1026: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:13.659 UTC: run_cmd[65748]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:29
+<165>1028: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:19.203 UTC: run_cmd[65802]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:29
+<165>1030: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:19.256 UTC: run_cmd[65802]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:34
+<165>1032: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:24.842 UTC: run_cmd[65874]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:34
+<165>1034: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:24.895 UTC: run_cmd[65874]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:40
+<165>1036: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:30.418 UTC: run_cmd[66123]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:40
+<165>1038: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:30.471 UTC: run_cmd[66123]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:46
+<165>1040: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:36.071 UTC: run_cmd[66286]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:46
+<165>1042: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:36.122 UTC: run_cmd[66286]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:47
+<164>1044: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:37.317 UTC: logger[66326]: %OS-SYSLOG-4-LOG_WARNING : PAM has completed on-demand data collection for installsetup-test_install_apply_by_reload-l5hkxprmz2admwbilgcfa20b595. All files are archived and saved at 0/RP0/CPU0  : harddisk:/cisco_support/PAM-spitfire-ondemand-xr-installsetup-test_install_apply_by_reload-l5hkxprmz2admwbilgcfa20b595-2019Sep04-213654.tgz (Please copy tgz file out of the router and send to Cisco support. This tgz file will be removed after 14 days.) 
+
+
+2019-09-05 10:06:51
+<165>1046: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:41.641 UTC: run_cmd[66513]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:51
+<165>1048: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:41.755 UTC: run_cmd[66513]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:06:52
+<165>1050: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:42.313 UTC: run_cmd[66574]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:06:52
+<165>1052: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:42.417 UTC: run_cmd[66574]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:07
+<165>1054: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:57.116 UTC: bash_cmd[66745]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:07:07
+<165>1056: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:57.355 UTC: bash_cmd[66745]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:07
+<165>1058: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:57.882 UTC: bash_cmd[66843]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:07:08
+<165>1060: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:58.051 UTC: bash_cmd[66843]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:09
+<165>1062: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:59.516 UTC: bash_cmd[66934]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:07:09
+<165>1064: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:38:59.675 UTC: bash_cmd[66934]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:10
+<165>1066: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:00.165 UTC: bash_cmd[67035]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:07:10
+<165>1068: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:00.332 UTC: bash_cmd[67035]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:10
+<165>1070: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:00.933 UTC: bash_cmd[67144]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:07:11
+<165>1072: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:01.091 UTC: bash_cmd[67144]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:11
+<165>1074: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:01.792 UTC: bash_cmd[67256]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:07:11
+<165>1076: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:01.948 UTC: bash_cmd[67256]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:12
+<165>1078: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:02.560 UTC: bash_cmd[67335]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-05 10:07:12
+<165>1080: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:02.708 UTC: bash_cmd[67335]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-05 10:07:12
+<166>1082: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:03.016 UTC: SSHD_[67579]: %SECURITY-SSHD-6-INFO_USER_LOGOUT : User 'cafyauto' from '6.1.21.131' logged out on 'vty1' 
+
+
+2019-09-05 10:07:16
+<166>1084: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:06.303 UTC: instorch[271]: %INFRA-INSTALL-6-ACTION_BEGIN : Commit 253 started 
+
+
+2019-09-05 10:07:32
+<166>1086: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:22.332 UTC: instorch[271]: %INFRA-INSTALL-6-ACTION_COMPLETE : Commit 253 complete 
+
+
+2019-09-05 10:07:33
+<164>1088: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:23.850 UTC: shelfmgr[345]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_REIMAGE_CFG_DONE : Successfully configured card 0/RP1/CPU0 for reimage operation, boot mode: IPXE_INTERNAL 
+
+
+2019-09-05 10:07:34
+<166>1090: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep  4 21:39:24.912 UTC: esd[155]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 18 has changed. New Link state DOWN, Admin state: UP 
+
+
