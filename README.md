@@ -3,15 +3,15 @@ Log analyzer  using ReactJs, Spring Boot, Java , MySql, MongoDB
 
 Rest APIs:
 ==========
-1. Search : HTTP Method = GET
-     Input parameters : Date, interval , page, pageSize
+1. GET : https://...../logs/?date=date&interval=interval&page=page&pageSize=pageSize
+     
      Returns : {"timestamp":"timestamp", "level":"ERROR", "text":"log string", "process":"processId"}
      
-2. GetStatistics: HTTP Method = GET
-     Input parameters : Date, interval
+2. GET : https://...../stats/?date=date&interval=interval
+
      Returns : {"info": 2000, "Warn":100, "Critical":0, "Error": 2, "Debug":45}
      
-3. StoreLogs: HTTP Method = POST
+3. POST : https://...../logs
       Body: {"log" : "Log String........"}   
      
 
