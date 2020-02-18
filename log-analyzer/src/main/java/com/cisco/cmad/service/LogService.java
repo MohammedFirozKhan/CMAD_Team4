@@ -34,6 +34,23 @@ public class LogService {
 		return logRepository.getLogStats(interval, LogStatistic.class);
 
 	}
+	
+	public List<LogStatistic> getLogStatistics(Date startDate, Date endDate) {
+
+		return logRepository.getLogStats(startDate, endDate, LogStatistic.class);
+
+	}
+	
+	
+	public Page<Log> getLogs(Date startDate, Date endDate, String logLevel, Pageable pageable) {
+		
+		if (StringUtils.isBlank(logLevel) || "ALL".equalsIgnoreCase(logLevel)) {
+			return logRepository.findByDateBetween(startDate, endDate, pageable);
+		}
+
+		return logRepository.findByLogLevelAndDateBetween(logLevel,startDate,endDate, pageable);
+
+	}
 
 	public Page<Log> getLogs(Integer interval, String logLevel, Pageable pageable) {
 		
