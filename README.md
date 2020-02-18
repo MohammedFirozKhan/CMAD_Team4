@@ -3,11 +3,11 @@ Log analyzer  using ReactJs, Spring Boot, Java , MySql, MongoDB
 
 Rest APIs:
 ==========
-1. GET : https://...../logs/?date=date&interval=interval&page=page&pageSize=pageSize
+1. GET : https://...../logs/?logLevel=ALL&interval=30&page=0&size=10
      
      Returns : {"timestamp":"timestamp", "level":"ERROR", "text":"log string", "process":"processId"}
      
-2. GET : https://...../stats/?date=date&interval=interval
+2. GET : https://...../stats/?interval=30
 
      Returns : {"info": 2000, "Warn":100, "Critical":0, "Error": 2, "Debug":45}
      
