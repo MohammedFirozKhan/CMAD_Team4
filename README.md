@@ -67,7 +67,7 @@ Rest APIs:
         "logLevel": "TRACE",
         "logMsg": "test message",
         "hostName":"some IP",
-        "date":"2020-01-13",
+        "date":"2020-02-19T09:58:25",
         "processName":"some process Name"
         
     }
@@ -78,7 +78,7 @@ Rest APIs:
         "logLevel": "TRACE",
         "logMsg": "test message",
         "hostName":"some IP",
-        "date":"2020-02-13",
+        "date":"2020-02-19T09:58:25",
         "processName":"some process Name"
         
     },
@@ -86,7 +86,7 @@ Rest APIs:
         "logLevel": "TRACE",
         "logMsg": "test message",
         "hostName":"some IP",
-        "date":"2020-02-14",
+        "date":"2020-02-19T09:58:25",
         "processName":"some process Name"
         
     },
@@ -94,7 +94,7 @@ Rest APIs:
         "logLevel": "ERROR",
         "logMsg": "test message",
         "hostName":"some IP",
-        "date":"2020-02-18",
+        "date":"2020-02-19T09:58:25",
         "processName":"some process Name"
         
     }]
