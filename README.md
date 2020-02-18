@@ -3,16 +3,142 @@ Log analyzer  using ReactJs, Spring Boot, Java , MySql, MongoDB
 
 Rest APIs:
 ==========
-1. GET : https://...../logs/?logLevel=ALL&interval=30&page=0&size=10
+1. GET : http://localhost:8080/logs/?interval=40&logLevel=ALL&page=0&size=3
+   Response : [
+    {
+        "logId": 11,
+        "logLevel": "INFO",
+        "logMsg": "test message",
+        "processName": null,
+        "hostName": "some IP",
+        "date": "2020-01-13T00:00:00.000+0000"
+    },
+    {
+        "logId": 12,
+        "logLevel": "WARN",
+        "logMsg": "test message",
+        "processName": null,
+        "hostName": "some IP",
+        "date": "2020-01-13T00:00:00.000+0000"
+    },
+    {
+        "logId": 13,
+        "logLevel": "DEBUG",
+        "logMsg": "test message",
+        "processName": null,
+        "hostName": "some IP",
+        "date": "2020-01-13T00:00:00.000+0000"
+    }
+]
      
-     Returns : {"timestamp":"timestamp", "level":"ERROR", "text":"log string", "process":"processId"}
+2. GET : http://localhost:8080/stats/?interval=40
+   Response : [
+    {
+        "logLevel": "INFO",
+        "logCount": 1
+    },
+    {
+        "logLevel": "WARN",
+        "logCount": 1
+    },
+    {
+        "logLevel": "DEBUG",
+        "logCount": 1
+    },
+    {
+        "logLevel": "ERROR",
+        "logCount": 2
+    },
+    {
+        "logLevel": "FATAL",
+        "logCount": 1
+    },
+    {
+        "logLevel": "TRACE",
+        "logCount": 4
+    }
+]
      
-2. GET : https://...../stats/?interval=30
+3. POST : http://localhost:8080/log
+    Body: {
+        "logLevel": "TRACE",
+        "logMsg": "test message",
+        "hostName":"some IP",
+        "date":"2020-01-13",
+        "processName":"some process Name"
+        
+    }
 
-     Returns : {"info": 2000, "Warn":100, "Critical":0, "Error": 2, "Debug":45}
-     
-3. POST : https://...../logs
-      Body: {"log" : "Log String........"}   
+4. POST : http://localhost:8080/logs
+   BODY : [{
+        "logLevel": "TRACE",
+        "logMsg": "test message",
+        "hostName":"some IP",
+        "date":"2020-02-13",
+        "processName":"some process Name"
+        
+    },
+    {
+        "logLevel": "TRACE",
+        "logMsg": "test message",
+        "hostName":"some IP",
+        "date":"2020-02-14",
+        "processName":"some process Name"
+        
+    },
+    {
+        "logLevel": "ERROR",
+        "logMsg": "test message",
+        "hostName":"some IP",
+        "date":"2020-02-18",
+        "processName":"some process Name"
+        
+    }]
+      
+5. GET : http://localhost:8080/statsBetween/?startDate=2020-01-12&endDate=2020-02-12
+ 
+ Response : 
+    [
+    {
+        "logLevel": "INFO",
+        "logCount": 1
+    },
+    {
+        "logLevel": "WARN",
+        "logCount": 1
+    },
+    {
+        "logLevel": "DEBUG",
+        "logCount": 1
+    },
+    {
+        "logLevel": "ERROR",
+        "logCount": 1
+    },
+    {
+        "logLevel": "FATAL",
+        "logCount": 1
+    },
+    {
+        "logLevel": "TRACE",
+        "logCount": 1
+    }
+]
+
+6. GET : http://localhost:8080/logsBetween/?startDate=2020-01-13&endDate=2020-02-12&logLevel=ALL&page=0&size=1
+
+  [
+    {
+        "logId": 11,
+        "logLevel": "INFO",
+        "logMsg": "test message",
+        "processName": null,
+        "hostName": "some IP",
+        "date": "2020-01-13T00:00:00.000+0000"
+    }
+]
+
+
      
 
 UI Components :
