@@ -4,6 +4,7 @@ Log analyzer  using ReactJs, Spring Boot, Java , MySql, MongoDB
 Rest APIs:
 ==========
 1. GET : http://localhost:8080/logs/?interval=40&logLevel=ALL&page=0&size=3
+   
    Response : [
     {
         "logId": 11,
@@ -32,6 +33,7 @@ Rest APIs:
 ]
      
 2. GET : http://localhost:8080/stats/?interval=40
+   
    Response : [
     {
         "logLevel": "INFO",
@@ -60,7 +62,8 @@ Rest APIs:
 ]
      
 3. POST : http://localhost:8080/log
-    Body: {
+   
+   Body: {
         "logLevel": "TRACE",
         "logMsg": "test message",
         "hostName":"some IP",
@@ -70,7 +73,8 @@ Rest APIs:
     }
 
 4. POST : http://localhost:8080/logs
-   BODY : [{
+  
+  BODY : [{
         "logLevel": "TRACE",
         "logMsg": "test message",
         "hostName":"some IP",
@@ -127,6 +131,7 @@ Rest APIs:
 
 6. GET : http://localhost:8080/logsBetween/?startDate=2020-01-13&endDate=2020-02-12&logLevel=ALL&page=0&size=1
 
+RESPONSE :
   [
     {
         "logId": 11,
