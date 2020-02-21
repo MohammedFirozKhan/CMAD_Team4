@@ -18,14 +18,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cisco.cmad.jpa.entity.Log;
 import com.cisco.cmad.model.LogStatistic;
-import com.cisco.cmad.service.LogService;
+import com.cisco.cmad.service.LogServiceImpl;
 
 @RestController
 @CrossOrigin
 public class LogController {
 	
 	@Autowired
-	private LogService logService;
+	private LogServiceImpl logService;
 	
 	
 	@PostMapping(path = "/logs")
