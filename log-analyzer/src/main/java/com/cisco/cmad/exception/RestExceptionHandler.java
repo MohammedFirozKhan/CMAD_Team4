@@ -22,8 +22,7 @@ public class RestExceptionHandler  extends ResponseEntityExceptionHandler{
 	 */
 	@ExceptionHandler(Exception.class)
 	public final ResponseEntity<ErrorDetails> handleAllExceptions(Exception ex, WebRequest request) {
-		ErrorDetails errorDetails = new ErrorDetails(new Date(), ex.getMessage(),
-				request.getDescription(false));
+		ErrorDetails errorDetails =null;
 		return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 

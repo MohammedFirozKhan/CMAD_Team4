@@ -1,0 +1,262 @@
+2019-09-27 00:13:08
+<163>788: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:45:12.602 UTC: rmf_svr[224]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NSRNR :CLEAR :0/RP0/CPU0:  
+
+
+2019-09-27 00:13:46
+<165>790: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:45:51.496 UTC: run_cmd[68576]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-27 00:13:47
+<165>792: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:45:51.558 UTC: run_cmd[68576]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-27 00:13:47
+<165>794: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:45:52.106 UTC: run_cmd[68606]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-27 00:13:47
+<165>796: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:45:52.166 UTC: run_cmd[68606]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-27 00:13:48
+<166>798: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:45:53.469 UTC: instorch[177]: %INFRA-INSTALL-6-ACTION_BEGIN : Packaging operation 209.1.1 started - add xr-spi-core 
+
+
+2019-09-27 00:14:23
+<166>800: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:27.962 UTC: instorch[177]: %INFRA-INSTALL-6-NO_CHANGES_MADE : Packaging operation 209.1.1 resulted in no action being taken on any packages 
+
+
+2019-09-27 00:14:23
+<166>802: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:27.962 UTC: instorch[177]: %INFRA-INSTALL-6-ACTION_COMPLETE : Packaging operation 209.1.1 complete. More packaging operations can be performed, or any current changes can be applied by restart 
+
+
+2019-09-27 00:14:41
+<166>804: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:46.175 UTC: instorch[177]: %INFRA-INSTALL-6-ACTION_BEGIN : Apply by reload 209.1 started 
+
+
+2019-09-27 00:14:42
+<162>806: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:47.105 UTC: instorch[177]: %INFRA-INSTALL-2-SYSTEM_RELOAD : As part of an install operation, a full system reload will take place in order to apply the installed software. 
+
+
+2019-09-27 00:14:42
+<164>808: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:47.114 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :DECLARE :: Fabric Plane-0 DOWN 
+
+
+2019-09-27 00:14:42
+<165>810: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:47.114 UTC: fsdbagg[332]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [7538] : Plane 0 state changed to DOWN 
+
+
+2019-09-27 00:14:42
+<164>812: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:47.116 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-3 :DECLARE :: Fabric Plane-3 DOWN 
+
+
+2019-09-27 00:14:42
+<165>814: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:47.116 UTC: fsdbagg[332]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [7538] : Plane 3 state changed to DOWN 
+
+
+2019-09-27 00:14:42
+<163>816: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:47.209 UTC: ledmgr[245]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/18/0 TSI: 9/7/1 8/19/1 
+
+
+2019-09-27 00:14:42
+<163>818: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:47.212 UTC: ledmgr[245]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/21/0 TSI: 9/7/1 8/19/1 
+
+
+2019-09-27 00:14:43
+<166>820: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:46:48.336 UTC: obflmgr[204]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/0/CPU0 
+
+
+2019-09-27 00:14:43
+<166>822: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:46:48.374 UTC: obflmgr[238]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/11/CPU0 
+
+
+2019-09-27 00:14:44
+<166>824: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:48.638 UTC: obflmgr[274]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/FC0 
+
+
+2019-09-27 00:14:45
+<166>826: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep 26 11:46:49.702 UTC: obflmgr[243]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP1/CPU0 
+
+
+2019-09-27 00:14:45
+<166>828: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:49.841 UTC: obflmgr[274]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/FC3 
+
+
+2019-09-27 00:14:45
+<165>830: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:49.903 UTC: pim[1078]: %ROUTING-IPV4_PIM-5-HA_NOTICE : NSR not ready 
+
+
+2019-09-27 00:14:45
+<165>832: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:49.903 UTC: pim6[1079]: %ROUTING-IPV4_PIM-5-HA_NOTICE : NSR not ready 
+
+
+2019-09-27 00:14:47
+<163>834: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:46:52.403 UTC: rmf_svr[224]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NSRNR :DECLARE :0/RP0/CPU0:  
+
+
+2019-09-27 00:15:15
+<164>836: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep 26 11:47:20.251 UTC: esdma[273]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/RP0/RP_SW:  
+
+
+2019-09-27 00:15:15
+<164>838: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep 26 11:47:20.265 UTC: esdma[273]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC11/LC_SW:  
+
+
+2019-09-27 00:15:15
+<164>840: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep 26 11:47:20.375 UTC: esdma[273]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC0/LC_SW:  
+
+
+2019-09-27 00:15:28
+<166>842: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:47:33.363 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(241)  
+
+
+2019-09-27 00:15:28
+<166>844: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:47:33.519 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :clustermgr(262)  
+
+
+2019-09-27 00:15:28
+<166>846: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:47:33.519 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(124)  
+
+
+2019-09-27 00:15:29
+<166>848: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:47:34.364 UTC: esd[151]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 7 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-27 00:15:29
+<166>850: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:47:34.520 UTC: esd[143]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 15 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-27 00:15:30
+<166>852: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep 26 11:47:34.896 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(289)  
+
+
+2019-09-27 00:15:31
+<164>854: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:47:35.692 UTC: esdma[362]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC0/LC_SW:  
+
+
+2019-09-27 00:15:49
+<162>868: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:47:54.250 UTC: rmf_svr[224]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :DECLARE :0/RP0/CPU0:  
+
+
+2019-09-27 00:15:50
+<166>870: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:47:55.126 UTC: obflmgr[274]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP0/CPU0 
+
+
+2019-09-27 00:15:51
+<166>872: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:47:56.456 UTC: esd[329]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 18 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-27 00:15:52
+<166>874: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:47:56.855 UTC: esd[329]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 19 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-27 00:15:53
+<166>876: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:47:58.288 UTC: processmgr[51]: %MGBL-SCONBKUP-6-INTERNAL_INFO : Reload debug script successfully spawned 
+
+
+2019-09-27 00:16:38
+<166>878: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:48:43.289 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(176)  
+
+
+2019-09-27 00:16:41
+<164>880: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:48:46.544 UTC: shelfmgr[281]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/0/CPU0 for reload operation 
+
+
+2019-09-27 00:16:42
+<164>882: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:48:47.547 UTC: shelfmgr[281]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/11/CPU0 for reload operation 
+
+
+2019-09-27 00:16:45
+<164>884: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:48:49.763 UTC: shelfmgr[281]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/FC0 for reload operation 
+
+
+2019-09-27 00:16:47
+<164>886: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:48:51.979 UTC: shelfmgr[281]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/FC3 for reload operation 
+
+
+2019-09-27 00:16:47
+<164>888: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:48:51.979 UTC: shelfmgr[281]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/RP1/CPU0 for reload operation 
+
+
+2019-09-27 00:20:37
+<166>240: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:52:42.660 UTC: shelfmgr[281]: %PLATFORM-SHELFMGR-6-INFO_LOG : 0/RP1/CPU0 is operational 
+
+
+2019-09-27 00:20:40
+<167>242: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:52:44.051 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:pfilter_ea pfilter_ea[263] (pid 5019) has not sent proc-ready within 90 seconds  
+
+
+2019-09-27 00:20:40
+<167>244: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:52:44.088 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:qos_ma_ea qos_ea[243] (pid 5043) has not sent proc-ready within 90 seconds  
+
+
+2019-09-27 00:20:40
+<167>246: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:52:44.124 UTC: sysmgr_log[68017]: %OS-SYSMGR-7-CHECK_LOG : /pkg/bin/sysmgr_debug_script invoked for: (qos_ea) process did not signal EOI and for level:100 . Output is in /var/log/sysmgr_debug/debug.node0_11_CPU0.6571.log 
+
+
+2019-09-27 00:20:42
+<166>248: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:52:48.436 UTC: instorch[177]: %INFRA-INSTALL-6-ACTION_COMPLETE : Apply by reload 209.1 complete 
+
+
+2019-09-27 00:20:44
+<167>250: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:52:48.598 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:pfilter_ea pfilter_ea[198] (pid 6342) has not sent proc-ready within 90 seconds  
+
+
+2019-09-27 00:20:44
+<167>252: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:52:48.637 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:qos_ma_ea qos_ea[209] (pid 6395) has not sent proc-ready within 90 seconds  
+
+
+2019-09-27 00:20:44
+<167>254: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:52:48.672 UTC: sysmgr_log[67013]: %OS-SYSMGR-7-CHECK_LOG : /pkg/bin/sysmgr_debug_script invoked for: (qos_ea) process did not signal EOI and for level:100 . Output is in /var/log/sysmgr_debug/debug.node0_0_CPU0.9663.log 
+
+
+2019-09-27 00:20:48
+<162>256: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:52:54.303 UTC: envmon[279]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :high voltage alarm :DECLARE :0/FC0: VP0P8_RT_E2 
+
+
+2019-09-27 00:20:55
+<165>258: pp-r1-mod-pod3 RP/0/RP1/CPU0:Sep 26 11:53:00.500 UTC: ntpd[351]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 0.759082(s) 
+
+
+2019-09-27 00:21:07
+<164>260: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.062 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :DECLARE :: Fabric Plane-0 DOWN 
+
+
+2019-09-27 00:21:07
+<164>262: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.062 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-1 :DECLARE :: Fabric Plane-1 DOWN 
+
+
+2019-09-27 00:21:07
+<164>264: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.062 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-2 :DECLARE :: Fabric Plane-2 DOWN 
+
+
+2019-09-27 00:21:07
+<164>266: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.062 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-3 :DECLARE :: Fabric Plane-3 DOWN 
+
+
+2019-09-27 00:21:07
+<164>268: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.062 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-4 :DECLARE :: Fabric Plane-4 DOWN 
+
+
+2019-09-27 00:21:07
+<164>270: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.063 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-5 :DECLARE :: Fabric Plane-5 DOWN 
+
+
+2019-09-27 00:21:07
+<164>272: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.063 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-6 :DECLARE :: Fabric Plane-6 DOWN 
+
+
+2019-09-27 00:21:07
+<164>274: pp-r1-mod-pod3 RP/0/RP0/CPU0:Sep 26 11:53:13.063 UTC: fsdbagg[332]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-7 :DECLARE :: Fabric Plane-7 DOWN 
+
+
+2019-09-27 00:21:13
+<165>276: pp-r1-mod-pod3 LC/0/11/CPU0:Sep 26 11:53:18.678 UTC: ntpdc[236]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 1.471844(s) 
+
+
+2019-09-27 00:21:13
+<165>278: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:53:19.102 UTC: ntpdc[225]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 1.307218(s) 
+
+
+2019-09-27 00:21:27
+<166>280: pp-r1-mod-pod3 LC/0/0/CPU0:Sep 26 11:53:33.252 UTC: npu_drvr[241]: %PLATFORM-OFA-6-INFO : NPU 

@@ -9,10 +9,8 @@ import javax.persistence.Id;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-import lombok.Data;
 
 @Entity
-@Data
 public class Log {
 	
 	@Id
@@ -22,8 +20,45 @@ public class Log {
 	private String logMsg;
 	private String processName;
 	private String hostName;
-	@JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ss")
+	@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date date;
+	public Long getLogId() {
+		return logId;
+	}
+	public void setLogId(Long logId) {
+		this.logId = logId;
+	}
+	public String getLogLevel() {
+		return logLevel;
+	}
+	public void setLogLevel(String logLevel) {
+		this.logLevel = logLevel;
+	}
+	public String getLogMsg() {
+		return logMsg;
+	}
+	public void setLogMsg(String logMsg) {
+		this.logMsg = logMsg;
+	}
+	public String getProcessName() {
+		return processName;
+	}
+	public void setProcessName(String processName) {
+		this.processName = processName;
+	}
+	public String getHostName() {
+		return hostName;
+	}
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
+	public Date getDate() {
+		return date;
+	}
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	
 	
 
 }

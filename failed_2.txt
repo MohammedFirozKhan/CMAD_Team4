@@ -1,0 +1,3764 @@
+2019-09-14 13:45:57
+<165>3168: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:16:39.153 UTC: run_cmd[67181]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-14 13:45:57
+<165>3170: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:16:39.214 UTC: run_cmd[67181]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-14 13:45:58
+<165>3172: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:16:39.767 UTC: run_cmd[67236]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-14 13:45:58
+<165>3174: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:16:39.826 UTC: run_cmd[67236]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-14 13:45:59
+<166>3176: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:16:41.252 UTC: instorch[374]: %INFRA-INSTALL-6-ACTION_BEGIN : Compound install operation 12.1 started 
+
+
+2019-09-14 13:45:59
+<166>3178: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:16:41.253 UTC: instorch[374]: %INFRA-INSTALL-6-ACTION_BEGIN : Packaging operation 12.1.1 started - add xr-fib 
+
+
+2019-09-14 13:46:44
+<166>3180: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:26.484 UTC: instorch[374]: %INFRA-INSTALL-6-ACTION_COMPLETE : Packaging operation 12.1.1 complete. More packaging operations can be performed, or any current changes can be applied by reload 
+
+
+2019-09-14 13:46:45
+<166>3182: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:27.331 UTC: instorch[374]: %INFRA-INSTALL-6-ACTION_BEGIN : Apply by reload 12.1 started 
+
+
+2019-09-14 13:46:46
+<162>3184: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:28.380 UTC: instorch[374]: %INFRA-INSTALL-2-SYSTEM_RELOAD : As part of an install operation, a full system reload will take place in order to apply the installed software. 
+
+
+2019-09-14 13:46:46
+<164>3186: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:28.388 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :DECLARE :: Fabric Plane-0 DOWN 
+
+
+2019-09-14 13:46:46
+<165>3188: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:28.388 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5637] : Plane 0 state changed to DOWN 
+
+
+2019-09-14 13:46:46
+<164>3190: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:28.397 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-2 :DECLARE :: Fabric Plane-2 DOWN 
+
+
+2019-09-14 13:46:46
+<162>76382: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.946 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/0, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<162>30356: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.844 UTC: fia_driver[218]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/1, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<165>3192: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:28.397 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5637] : Plane 2 state changed to DOWN 
+
+
+2019-09-14 13:46:46
+<163>30358: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.844 UTC: ifmgr[142]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/1, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76384: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.946 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/0, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3194: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.404 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/0, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3196: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.404 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/0, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76386: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.946 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/0, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3198: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.400 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/1, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>76388: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.948 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/9, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<165>3200: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.400 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/1, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>76390: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.949 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/4, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<162>30362: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.852 UTC: fia_driver[218]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/13, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<163>30364: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.852 UTC: ifmgr[142]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/13, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>30360: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.844 UTC: ifmgr[142]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/1, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3202: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.405 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/2, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>30366: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.852 UTC: ifmgr[142]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/13, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76392: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.950 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/9, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3204: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.405 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/2, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>30368: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.853 UTC: fia_driver[218]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/21, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<165>76394: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.950 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/9, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3206: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.401 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/5, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>30370: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.855 UTC: ifmgr[142]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/21, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76396: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.950 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/4, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3208: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.401 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/5, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>30372: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.855 UTC: ifmgr[142]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/21, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76398: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.950 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/4, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3210: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.406 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/3, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>30374: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.859 UTC: fia_driver[218]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/33, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<162>76400: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.950 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/5, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<163>30376: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.860 UTC: ifmgr[142]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/33, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3212: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.406 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/3, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76402: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.951 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/5, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3214: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.402 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/9, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>30378: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.860 UTC: ifmgr[142]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/33, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76404: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.951 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/5, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3216: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.402 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/9, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>30380: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.862 UTC: fia_driver[218]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/17, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<162>76406: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.952 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/21, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<162>30382: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.862 UTC: fia_driver[218]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/35, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<163>3218: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.403 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/24, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>76408: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.952 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/12, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<165>3220: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.403 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/24, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>30384: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.867 UTC: ifmgr[142]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/17, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>76410: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.953 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/1, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<165>30386: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.867 UTC: ifmgr[142]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/17, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3222: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.407 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/4, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>76412: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.953 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/18, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<165>3224: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.407 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/4, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>30388: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.867 UTC: ifmgr[142]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/35, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>76414: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.954 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/8, Detected Local Fault 
+
+
+2019-09-14 13:46:46
+<163>3226: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.409 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/6, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>30390: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:46.867 UTC: ifmgr[142]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/35, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76416: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/21, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3228: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.405 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/33, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76418: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/21, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3230: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.409 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/6, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76420: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/12, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3232: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.405 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/33, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76422: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/12, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3234: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.405 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/36, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76424: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/1, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3236: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.405 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/36, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76426: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/1, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3238: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.411 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/7, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76428: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/18, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3240: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.411 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/7, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76430: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/18, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3242: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.411 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/8, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>76432: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/8, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>3244: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.411 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/8, changed state to Down 
+
+
+2019-09-14 13:46:46
+<165>76434: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.956 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/8, changed state to Down 
+
+
+2019-09-14 13:46:46
+<163>3246: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.406 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/39, changed state to Down 
+
+
+2019-09-14 13:46:46
+<162>76436: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.957 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/32, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3248: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.406 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/39, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76438: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.957 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/26, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<163>3250: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.412 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/10, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76440: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.958 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/32, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3252: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.407 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/42, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76442: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.958 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/32, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3254: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.412 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/10, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76444: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.958 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/26, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3256: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.407 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/42, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76446: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.958 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/26, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76448: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.960 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/35, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<163>3258: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.413 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/11, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76450: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.960 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/35, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3260: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.413 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/11, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76452: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.960 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/35, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3262: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.413 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/12, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76454: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.960 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/17, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3264: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.413 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/12, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76456: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.960 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/19, Detected Remote Fault 
+
+
+2019-09-14 13:46:47
+<163>3266: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.409 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/45, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76458: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.962 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/17, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3268: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.409 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/45, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76460: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.962 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/17, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76462: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.962 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/19, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3270: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.414 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/15, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3272: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.410 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/13, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76464: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.962 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/19, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76466: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.962 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/24, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3274: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.410 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/13, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76468: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.962 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/16, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3276: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.414 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/15, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76470: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.963 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/33, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<163>3278: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.411 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/25, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76472: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.963 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/24, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3280: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.411 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/25, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3282: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.415 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/18, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76474: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.963 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/24, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3284: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.416 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/18, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76476: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.963 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/16, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76478: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.963 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/16, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3286: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.411 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/26, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76480: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.963 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/33, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3288: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.412 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/26, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76482: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.963 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/33, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3290: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.416 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/21, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3292: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.416 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/21, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76484: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.964 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/15, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<163>3294: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.412 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/32, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76486: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.965 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/15, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76488: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.965 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/15, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3296: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.412 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/32, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3298: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.418 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/27, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76490: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.965 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/20, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<163>3300: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.413 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/38, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76492: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.965 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/14, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3302: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.414 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/38, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76494: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.966 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/20, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3304: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.418 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/27, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76496: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.966 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/20, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3306: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.415 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/40, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76498: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.966 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/14, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3308: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.415 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/40, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76500: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.966 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/14, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3310: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.415 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/41, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76502: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.967 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/28, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3312: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.415 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/41, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76504: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.968 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/28, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3314: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.420 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/30, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76506: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.968 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/28, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3316: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.416 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/43, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76508: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.971 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/34, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3318: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.416 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/43, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76510: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.971 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/34, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3320: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.420 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/30, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76512: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.971 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/34, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3322: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.416 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/44, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76514: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.985 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/24, changed state to Up 
+
+
+2019-09-14 13:46:47
+<165>3324: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.416 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/44, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76516: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:34.985 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/24, changed state to Up 
+
+
+2019-09-14 13:46:47
+<163>3326: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.417 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/46, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76518: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.229 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<165>3328: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.418 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/46, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76520: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.229 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<163>3330: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.422 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/14, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76522: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.229 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<165>3332: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.422 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/14, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76524: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.229 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<163>3334: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.418 UTC: ifmgr[119]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/11/0/47, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76526: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.229 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<165>3336: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:28.418 UTC: ifmgr[119]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/11/0/47, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76528: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.229 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<163>3338: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.425 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/16, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76530: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.229 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<165>3340: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.425 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/16, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76532: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.230 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/8:  Optics0/0/0/8 
+
+
+2019-09-14 13:46:47
+<163>3342: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/17, changed state to Down 
+
+
+2019-09-14 13:46:47
+<162>76534: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.258 UTC: fia_driver[248]: %PLATFORM-DPA-2-RX_FAULT : Interface HundredGigE0/0/0/24, Detected Local Fault 
+
+
+2019-09-14 13:46:47
+<165>3344: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/17, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>76536: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.258 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/24, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3346: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/19, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>76538: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.258 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/24, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3348: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/19, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3350: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/20, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3352: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/20, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3354: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/22, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3356: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.426 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/22, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3358: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.427 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/23, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3360: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.427 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/23, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3362: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.427 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/28, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3364: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.427 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/28, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>30392: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>3366: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.430 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/29, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>30394: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<165>3368: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.430 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/29, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3370: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.430 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/31, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>30396: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>30398: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<165>3372: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.430 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/31, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>3374: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.432 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/34, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>30400: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<165>3376: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.432 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/34, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>30402: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>30404: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>3378: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.432 UTC: ifmgr[219]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/35, changed state to Down 
+
+
+2019-09-14 13:46:47
+<165>3380: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:28.432 UTC: ifmgr[219]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/35, changed state to Down 
+
+
+2019-09-14 13:46:47
+<163>30406: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>30408: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-0 LOW ALARM :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>3382: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:28.493 UTC: ledmgr[215]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/18/0 TSI: 9/7/1 8/19/1 
+
+
+2019-09-14 13:46:47
+<163>30410: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.321 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-1 LOW ALARM :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>3384: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:28.505 UTC: ledmgr[215]: %PLATFORM-INVENTORY_PARSER-3-ERROR : Could not extract cpa intf obj for eid 65534/20/0 TSI: 9/7/1 8/19/1 
+
+
+2019-09-14 13:46:47
+<163>30412: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.322 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-2 LOW ALARM :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>30414: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:47.322 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX POWER LANE-3 LOW ALARM :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:46:47
+<163>76540: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.779 UTC: ifmgr[216]: %PKT_INFRA-LINK-3-UPDOWN : Interface HundredGigE0/0/0/24, changed state to Up 
+
+
+2019-09-14 13:46:47
+<165>76542: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.779 UTC: ifmgr[216]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface HundredGigE0/0/0/24, changed state to Up 
+
+
+2019-09-14 13:46:47
+<163>76544: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.976 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<163>76546: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.976 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<163>76548: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.977 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<163>76550: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.977 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<163>76552: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.977 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<163>76554: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.977 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<163>76556: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.977 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<163>76558: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:35.977 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/9:  Optics0/0/0/9 
+
+
+2019-09-14 13:46:47
+<166>3386: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:29.521 UTC: obflmgr[326]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/FC0 
+
+
+2019-09-14 13:46:48
+<166>3388: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:17:29.617 UTC: obflmgr[250]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/11/CPU0 
+
+
+2019-09-14 13:46:48
+<166>3390: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:17:29.649 UTC: obflmgr[144]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/0/CPU0 
+
+
+2019-09-14 13:46:48
+<166>3392: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:17:30.251 UTC: obflmgr[171]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP1/CPU0 
+
+
+2019-09-14 13:46:48
+<165>3394: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:30.502 UTC: pim[1150]: %ROUTING-IPV4_PIM-5-HA_NOTICE : NSR not ready 
+
+
+2019-09-14 13:46:48
+<165>3396: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:30.502 UTC: pim6[1151]: %ROUTING-IPV4_PIM-5-HA_NOTICE : NSR not ready 
+
+
+2019-09-14 13:46:49
+<163>76560: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:37.513 UTC: fia_driver[248]: %PLATFORM-PLAT_VETHER_DRIVER-3-REPORT_BER_SET : ifh-0x1f0 : SF-BER exceeded the threshold limit for the BER level [e^-8] 
+
+
+2019-09-14 13:46:50
+<163>76562: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<163>76564: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<163>76566: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<163>76568: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<163>76570: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<163>76572: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<163>76574: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<163>76576: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.218 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/12:  Optics0/0/0/12 
+
+
+2019-09-14 13:46:50
+<166>3398: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:32.025 UTC: obflmgr[326]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/FC2 
+
+
+2019-09-14 13:46:50
+<163>76578: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.965 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:50
+<163>76580: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.965 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:50
+<163>76582: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.965 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:50
+<163>76584: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.966 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:50
+<163>76586: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.966 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:50
+<163>76588: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.966 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:50
+<163>76590: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.966 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:50
+<163>76592: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:38.966 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:51
+<163>3400: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:17:33.002 UTC: rmf_svr[347]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NSRNR :DECLARE :0/RP0/CPU0:  
+
+
+2019-09-14 13:46:51
+<163>76594: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.713 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:51
+<163>76596: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.713 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:51
+<163>76598: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.713 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:51
+<163>76600: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.713 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:51
+<163>76602: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.713 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:51
+<163>76604: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.713 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:51
+<163>76606: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.713 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:51
+<163>76608: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:39.714 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/14:  Optics0/0/0/14 
+
+
+2019-09-14 13:46:52
+<163>76610: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:52
+<163>76612: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:52
+<163>76614: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:52
+<163>76616: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:52
+<163>76618: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:52
+<163>76620: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:52
+<163>76622: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:52
+<163>76624: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:40.461 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/15:  Optics0/0/0/15 
+
+
+2019-09-14 13:46:53
+<163>76626: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.208 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76628: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.208 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76630: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.208 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76632: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.208 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76634: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.209 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76636: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.209 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76638: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.209 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76640: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.209 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/16:  Optics0/0/0/16 
+
+
+2019-09-14 13:46:53
+<163>76642: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:53
+<163>76644: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:53
+<163>76646: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:53
+<163>76648: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:53
+<163>76650: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:53
+<163>76652: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:53
+<163>76654: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:53
+<163>76656: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:41.956 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30416: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.045 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>30418: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.045 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>30420: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.045 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>30422: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.045 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>30424: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.045 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>30426: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.045 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>30428: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.045 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>30430: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.046 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/13:  Optics0/0/0/13 
+
+
+2019-09-14 13:46:54
+<163>76658: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.703 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>76660: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.703 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>76662: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.703 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>76664: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.703 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>76666: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.703 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>76668: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.703 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>76670: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.703 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>76672: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:42.704 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/18:  Optics0/0/0/18 
+
+
+2019-09-14 13:46:54
+<163>30432: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.792 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30434: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.793 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30436: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.793 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30438: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.793 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30440: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.793 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30442: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.793 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30444: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.793 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:54
+<163>30446: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:54.793 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/17:  Optics0/0/0/17 
+
+
+2019-09-14 13:46:55
+<163>76674: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:55
+<163>76676: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:55
+<163>76678: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:55
+<163>76680: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:55
+<163>76682: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:55
+<163>76684: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:55
+<163>76686: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:55
+<163>76688: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:43.451 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/19:  Optics0/0/0/19 
+
+
+2019-09-14 13:46:56
+<163>76690: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76692: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76694: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76696: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76698: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76700: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76702: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76704: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.199 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/20:  Optics0/0/0/20 
+
+
+2019-09-14 13:46:56
+<163>76706: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:56
+<163>76708: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:56
+<163>76710: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:56
+<163>76712: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:56
+<163>76714: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:56
+<163>76716: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:56
+<163>76718: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:56
+<163>76720: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:44.946 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30448: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30450: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30452: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30454: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30456: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30458: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30460: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:46:57
+<163>30462: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:16:57.033 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/21:  Optics0/0/0/21 
+
+
+2019-09-14 13:47:00
+<163>76722: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.681 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>76724: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.681 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>76726: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.681 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>76728: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.681 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>76730: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.681 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>76732: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.682 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>76734: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.682 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>76736: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:48.682 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/26:  Optics0/0/0/26 
+
+
+2019-09-14 13:47:00
+<163>30464: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.768 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:00
+<163>30466: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.768 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:00
+<163>30468: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.768 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:00
+<163>30470: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.768 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:00
+<163>30472: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.768 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:00
+<163>30474: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.769 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:00
+<163>30476: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.769 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:00
+<163>30478: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:00.769 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:01
+<163>30480: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:01
+<163>30482: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:01
+<163>30484: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:01
+<163>30486: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:01
+<163>30488: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:01
+<163>30490: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:01
+<163>30492: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:01
+<163>30494: f3a-r3-pod6 LC/0/0/CPU0:Sep 14 08:17:01.516 UTC: optics_driver[239]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:02
+<163>76738: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.175 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:02
+<163>76740: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.175 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:02
+<163>76742: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.176 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:02
+<163>76744: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.176 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:02
+<163>76746: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.176 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:02
+<163>76748: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.176 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:02
+<163>76750: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.176 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:02
+<163>76752: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:50.176 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/28:  Optics0/0/0/28 
+
+
+2019-09-14 13:47:05
+<163>76754: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76756: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76758: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76760: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76762: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76764: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76766: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76768: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.164 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/32:  Optics0/0/0/32 
+
+
+2019-09-14 13:47:05
+<163>76770: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:05
+<163>76772: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:05
+<163>76774: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:05
+<163>76776: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:05
+<163>76778: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:05
+<163>76780: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:05
+<163>76782: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:05
+<163>76784: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:53.911 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/33:  Optics0/0/0/33 
+
+
+2019-09-14 13:47:06
+<163>76786: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.658 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:06
+<163>76788: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.658 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:06
+<163>76790: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.658 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:06
+<163>76792: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.658 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:06
+<163>76794: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.658 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:06
+<163>76796: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.658 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:06
+<163>76798: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.658 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:06
+<163>76800: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:54.659 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/34:  Optics0/0/0/34 
+
+
+2019-09-14 13:47:07
+<163>76802: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:07
+<163>76804: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:07
+<163>76806: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:07
+<163>76808: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:07
+<163>76810: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:07
+<163>76812: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:07
+<163>76814: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:07
+<163>76816: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:55.406 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/35:  Optics0/0/0/35 
+
+
+2019-09-14 13:47:08
+<163>76818: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:08
+<163>76820: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:08
+<163>76822: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:08
+<163>76824: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:08
+<163>76826: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:08
+<163>76828: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:08
+<163>76830: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:08
+<163>76832: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:56.653 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/0:  Optics0/0/0/0 
+
+
+2019-09-14 13:47:09
+<163>76834: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.400 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:09
+<163>76836: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.400 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:09
+<163>76838: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.401 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:09
+<163>76840: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.401 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:09
+<163>76842: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.401 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:09
+<163>76844: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.401 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:09
+<163>76846: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.401 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:09
+<163>76848: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:57.401 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/1:  Optics0/0/0/1 
+
+
+2019-09-14 13:47:11
+<163>76850: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:11
+<163>76852: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:11
+<163>76854: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-2 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:11
+<163>76856: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-3 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:11
+<163>76858: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:11
+<163>76860: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:11
+<163>76862: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:11
+<163>76864: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:16:59.642 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/4:  Optics0/0/0/4 
+
+
+2019-09-14 13:47:12
+<163>76874: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:17:00.389 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-0 :DECLARE : Optics0/0/0/5:  Optics0/0/0/5 
+
+
+2019-09-14 13:47:12
+<163>76876: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:17:00.389 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-1 :DECLARE : Optics0/0/0/5:  Optics0/0/0/5 
+
+
+2019-09-14 13:47:12
+<163>76866: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:17:00.389 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-0 :DECLARE : Optics0/0/0/5:  Optics0/0/0/5 
+
+
+2019-09-14 13:47:12
+<163>76868: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:17:00.389 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOS LANE-1 :DECLARE : Optics0/0/0/5:  Optics0/0/0/5 
+
+
+2019-09-14 13:47:12
+<163>76878: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:17:00.389 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-2 :DECLARE : Optics0/0/0/5:  Optics0/0/0/5 
+
+
+2019-09-14 13:47:12
+<163>76880: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:17:00.389 UTC: optics_driver[294]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :OPTICS RX LOL LANE-3 :DECLARE : Optics0/0/0/5:  Optics0/0/0/5 
+
+
+2019-09-14 13:47:14
+<163>76882: f3a-r2-pod6 LC/0/0/CPU0:Sep 14 08:17:02.778 UTC: fia_driver[248]: %PLATFORM-PLAT_VETHER_DRIVER-3-REPORT_BER_CLEAR : ifh-0x1f0 : SF-BER is less than the threshold limit for the BER level [e^-8] 
+
+
+2019-09-14 13:47:19
+<164>3402: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:18:00.662 UTC: esdma[125]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC0/LC_SW:  
+
+
+2019-09-14 13:47:19
+<164>3404: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:18:00.756 UTC: esdma[125]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/LC11/LC_SW:  
+
+
+2019-09-14 13:47:19
+<164>3406: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:18:00.811 UTC: esdma[125]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/RP0/RP_SW:  
+
+
+2019-09-14 13:47:33
+<166>3408: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:18:14.767 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(214)  
+
+
+2019-09-14 13:47:33
+<166>3410: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:18:14.774 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(176)  
+
+
+2019-09-14 13:47:33
+<166>3412: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:18:15.491 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(127)  
+
+
+2019-09-14 13:47:34
+<166>3414: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:18:15.768 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 7 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-14 13:47:34
+<166>3416: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:18:15.775 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 7 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-14 13:47:52
+<166>3432: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:18:33.579 UTC: obflmgr[326]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP0/CPU0 
+
+
+2019-09-14 13:47:53
+<162>3434: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:18:34.778 UTC: rmf_svr[347]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :DECLARE :0/RP0/CPU0:  
+
+
+2019-09-14 13:47:54
+<166>3436: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:18:35.619 UTC: processmgr[51]: %MGBL-SCONBKUP-6-INTERNAL_INFO : Reload debug script successfully spawned 
+
+
+2019-09-14 13:48:54
+<166>3438: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:19:35.621 UTC: processmgr[51]: %OS-SYSMGR-6-INFO : pm_audit_tier: ack not received for sysmgr shutdown event from :npu_drvr(319)  
+
+
+2019-09-14 13:48:56
+<164>3440: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:19:37.895 UTC: shelfmgr[244]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/0/CPU0 for reload operation 
+
+
+2019-09-14 13:48:56
+<164>3442: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:19:37.895 UTC: shelfmgr[244]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/11/CPU0 for reload operation 
+
+
+2019-09-14 13:48:58
+<164>3444: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:19:40.111 UTC: shelfmgr[244]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/FC0 for reload operation 
+
+
+2019-09-14 13:49:00
+<164>3446: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:19:42.327 UTC: shelfmgr[244]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/FC2 for reload operation 
+
+
+2019-09-14 13:49:00
+<164>3448: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:19:42.327 UTC: shelfmgr[244]: %PLATFORM-CPA_INTF_SHELFMGR-4-CARD_RELOAD_CFG_DONE : Successfully configured card 0/RP1/CPU0 for reload operation 
+
+
+2019-09-14 13:52:15
+<166>164: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:22:55.622 UTC: call_home[161]: %MGBL-CONFIG-6-DB_COMMIT : Configuration committed by user 'root'. Use 'show configuration commit changes 1000000071' to view the changes. 
+
+
+2019-09-14 13:52:29
+<166>166: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:10.612 UTC: ZTP[65623]: %OS-SYSLOG-6-LOG_INFO : ZTP will abort as username is configured 
+
+
+2019-09-14 13:52:29
+<166>168: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:10.684 UTC: ZTP[65628]: %OS-SYSLOG-6-LOG_INFO : Do not configure router until ZTP exited message is seen. 
+
+
+2019-09-14 13:52:32
+<166>170: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:14.088 UTC: ZTP[65661]: %OS-SYSLOG-6-LOG_INFO : ZTP exited 
+
+
+2019-09-14 13:52:40
+<162>172: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:21.920 UTC: envmon[121]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :high voltage alarm :DECLARE :0/FC0: VP0P8_RT_E2 
+
+
+2019-09-14 13:52:52
+<162>174: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:34.340 UTC: envmon[121]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :low voltage alarm :DECLARE :0/FC2: VP0P8_RT_E2 
+
+
+2019-09-14 13:53:08
+<164>176: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :DECLARE :: Fabric Plane-0 DOWN 
+
+
+2019-09-14 13:53:08
+<164>178: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-1 :DECLARE :: Fabric Plane-1 DOWN 
+
+
+2019-09-14 13:53:08
+<164>180: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-2 :DECLARE :: Fabric Plane-2 DOWN 
+
+
+2019-09-14 13:53:08
+<164>182: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-3 :DECLARE :: Fabric Plane-3 DOWN 
+
+
+2019-09-14 13:53:08
+<164>184: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-4 :DECLARE :: Fabric Plane-4 DOWN 
+
+
+2019-09-14 13:53:08
+<164>186: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-5 :DECLARE :: Fabric Plane-5 DOWN 
+
+
+2019-09-14 13:53:08
+<164>188: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-6 :DECLARE :: Fabric Plane-6 DOWN 
+
+
+2019-09-14 13:53:08
+<164>190: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:23:50.076 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-7 :DECLARE :: Fabric Plane-7 DOWN 
+
+
+2019-09-14 13:53:26
+<166>192: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:24:07.678 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 9 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:53:28
+<166>194: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:24:09.828 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 2 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:53:32
+<166>196: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.356 UTC: esd[200]: %INFRA-ESD-6-SWITCH_OPERATIONAL : All configuration is complete and switch is fully operational 
+
+
+2019-09-14 13:53:32
+<166>198: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.372 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 10 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:53:32
+<166>200: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.372 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_UP : The physical link state of the control ethernet switch port 10 has changed. New Link state UP, Admin state: UP 
+
+
+2019-09-14 13:53:32
+<166>202: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.373 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 8 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:53:32
+<166>204: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.373 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 7 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 13:53:32
+<166>206: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.373 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 4 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 13:53:32
+<166>208: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.373 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 3 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 13:53:32
+<166>210: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:12.373 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 0 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:53:33
+<166>212: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.458 UTC: esd[145]: %INFRA-ESD-6-SWITCH_OPERATIONAL : All configuration is complete and switch is fully operational 
+
+
+2019-09-14 13:53:33
+<166>214: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.463 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 10 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:53:33
+<166>216: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.463 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_UP : The physical link state of the control ethernet switch port 10 has changed. New Link state UP, Admin state: UP 
+
+
+2019-09-14 13:53:33
+<166>218: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.463 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 8 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:53:33
+<166>220: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.463 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 7 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 13:53:33
+<166>222: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.463 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 4 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 13:53:33
+<166>224: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.463 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 3 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 13:53:33
+<166>226: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:14.463 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 0 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:53:38
+<164>228: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:18.837 UTC: envmon[251]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :Invalid sensor read error :DECLARE :0/11/CPU0: POL_CORE_N0_I3 has raised an alarm for Invalid Sensor read error 
+
+
+2019-09-14 13:53:38
+<164>230: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:18.837 UTC: envmon[251]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :Invalid sensor read error :DECLARE :0/11/CPU0: POL_CORE_N1_I3 has raised an alarm for Invalid Sensor read error 
+
+
+2019-09-14 13:53:40
+<164>232: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:20.883 UTC: envmon[169]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :Invalid sensor read error :DECLARE :0/0/CPU0: POL_CORE_N0_I3 has raised an alarm for Invalid Sensor read error 
+
+
+2019-09-14 13:53:40
+<164>234: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:20.883 UTC: envmon[169]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :Invalid sensor read error :DECLARE :0/0/CPU0: POL_CORE_N1_I3 has raised an alarm for Invalid Sensor read error 
+
+
+2019-09-14 13:53:41
+<162>236: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:21.793 UTC: tamsvcs_tamm[172]: %SECURITY-TAMSVCS-2-TPM_DB_CORRUPT :  TAM detected its databse key changed or database corrupt. Erasing all secure objects as a mitigation and recovery.  
+
+
+2019-09-14 13:53:47
+<166>238: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:27.709 UTC: obflmgr[144]: %PLATFORM-OBFL-6-INFO : Mounted OBFL directory for 0/0/CPU0 
+
+
+2019-09-14 13:54:00
+<166>240: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:41.144 UTC: obflmgr[250]: %PLATFORM-OBFL-6-INFO : Mounted OBFL directory for 0/11/CPU0 
+
+
+2019-09-14 13:54:02
+<162>242: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:24:42.751 UTC: tamsvcs_tamm[152]: %SECURITY-TAMSVCS-2-TPM_DB_CORRUPT :  TAM detected its databse key changed or database corrupt. Erasing all secure objects as a mitigation and recovery.  
+
+
+2019-09-14 13:54:13
+<163>244: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:53.802 UTC: processmgr[51]: %OS-SYSMGR-3-ERROR : tamsvcs_tamm(1) (jid 172) exited, will be respawned with a delay (slow-restart)   
+
+
+2019-09-14 13:54:13
+<163>246: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:24:53.802 UTC: processmgr[51]: %OS-SYSMGR-3-ERROR : tamsvcs_tamm(172) (fail count 0) will be respawned in 10 seconds  
+
+
+2019-09-14 13:54:22
+<164>248: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:25:04.160 UTC: fib_mgr[377]: %ROUTING-FIB-4-RETRYDB_NONEMPTY : 10 FIB object(s) have been in IPv4 retry queue for at least 120 seconds 
+
+
+2019-09-14 13:54:31
+<163>250: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:25:13.376 UTC: auth_service_exppubkey[1170]: %SECURITY-AUTH_SRV-3-ERR : Callback Json get status 
+
+
+2019-09-14 13:54:31
+<163>252: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:25:13.376 UTC: auth_service_exppubkey[1170]: %SECURITY-AUTH_SRV-3-ERR_2_PARAM : Auth Service error:Callback Json get message failed 404 Not Found 
+
+
+2019-09-14 13:54:34
+<163>254: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:25:14.759 UTC: processmgr[51]: %OS-SYSMGR-3-ERROR : tamsvcs_tamm(1) (jid 152) exited, will be respawned with a delay (slow-restart)   
+
+
+2019-09-14 13:54:34
+<163>256: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:25:14.759 UTC: processmgr[51]: %OS-SYSMGR-3-ERROR : tamsvcs_tamm(152) (fail count 0) will be respawned in 10 seconds  
+
+
+2019-09-14 13:54:57
+<163>258: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:25:37.761 UTC: fpd_client[197]: %PLATFORM-CPA_INTF_FPD-3-CPA_ERROR : FPD x86FpgaGolden - AIKIDO FPGA has inconsistent version programmed in the SPIDIR and Image location. This has to be fixed. Force upgrading AIKIDO FPGA both TamFw and Fpga image would fix this problem  
+
+
+2019-09-14 13:55:01
+<167>260: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:25:41.942 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:pfilter_ea pfilter_ea[224] (pid 5841) has not sent proc-ready within 90 seconds  
+
+
+2019-09-14 13:55:01
+<167>262: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:25:41.989 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:qos_ma_ea qos_ea[249] (pid 5861) has not sent proc-ready within 90 seconds  
+
+
+2019-09-14 13:55:02
+<167>264: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:25:42.190 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : ipv6_nd(1) (jid 151) did not signal end of initialization   
+
+
+2019-09-14 13:55:02
+<167>266: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:25:42.570 UTC: sysmgr_log[66796]: %OS-SYSMGR-7-CHECK_LOG : /pkg/bin/sysmgr_debug_script invoked for: (ipv6_nd) process did not signal EOI and for level:100 . Output is in /var/log/sysmgr_debug/debug.node0_11_CPU0.9445.log 
+
+
+2019-09-14 13:55:22
+<167>268: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:03.265 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:pfilter_ea pfilter_ea[187] (pid 7816) has not sent proc-ready within 90 seconds  
+
+
+2019-09-14 13:55:22
+<167>270: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:03.302 UTC: processmgr[51]: %OS-SYSMGR-7-DEBUG : Feature:qos_ma_ea qos_ea[210] (pid 7839) has not sent proc-ready within 90 seconds  
+
+
+2019-09-14 13:55:23
+<167>272: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:03.759 UTC: sysmgr_log[66263]: %OS-SYSMGR-7-CHECK_LOG : /pkg/bin/sysmgr_debug_script invoked for: (qos_ea) process did not signal EOI and for level:100 . Output is in /var/log/sysmgr_debug/debug.node0_0_CPU0.8906.log 
+
+
+2019-09-14 13:55:32
+<166>274: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:13.135 UTC: npu_drvr[176]: %PLATFORM-OFA-6-INFO : NPU #1 Initialization Completed 
+
+
+2019-09-14 13:55:34
+<166>276: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.581 UTC: npu_drvr[176]: %PLATFORM-OFA-6-INFO : NPU #0 Initialization Completed 
+
+
+2019-09-14 13:55:34
+<165>278: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/0, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>280: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/1, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>282: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/2, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>284: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/3, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>286: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/4, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>288: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/5, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>290: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/6, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>292: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/7, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>294: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/8, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>296: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/9, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>298: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/10, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>300: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/11, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>302: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/12, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>304: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/13, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>306: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/14, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>308: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/15, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>310: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/16, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>312: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/17, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>314: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/18, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>316: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/19, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>318: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/20, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>320: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/21, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>322: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/22, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>324: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/23, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>326: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/24, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>328: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/25, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>330: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/26, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>332: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/27, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>334: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/28, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>336: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/29, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>338: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/30, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>340: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/31, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>342: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/32, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>344: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/33, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>346: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/34, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>348: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/35, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>350: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/36, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>352: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/37, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>354: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/38, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>356: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/39, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>358: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/40, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>360: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/41, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>362: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/42, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>364: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/43, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>366: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/44, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>368: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/45, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>370: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/46, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>372: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.789 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/47, changed state to Down 
+
+
+2019-09-14 13:55:34
+<165>374: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/1, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>376: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/5, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>378: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/9, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>380: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/13, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>382: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/24, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>384: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/25, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>386: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/26, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>388: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/32, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>390: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/33, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>392: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/36, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>394: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/37, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>396: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/38, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>398: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/39, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>400: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/40, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>402: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/41, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>404: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/42, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>406: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/43, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>408: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/44, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>410: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/45, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>412: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/46, changed state to Up 
+
+
+2019-09-14 13:55:34
+<165>414: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:14.793 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/11/0/47, changed state to Up 
+
+
+2019-09-14 13:55:36
+<164>416: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:26:17.997 UTC: shelfmgr[244]: %PLATFORM-SHELFMGR-4-CARD_RELOAD : Reloading 0/RP1/CPU0: shelfmgr timer expired 
+
+
+2019-09-14 13:55:38
+<166>418: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:18.399 UTC: sysdb_svr_local[178]: %SYSDB-SYSDB-6-TIMEOUT_EDM : EDM request for 'oper/ipv4-io/node/b00/if/vrf/0x0/0/ifbrief/' from 'show_ip_interface' (jid 66271, node 0/RP0/CPU0). No response from 'ipv4_ma' (jid 188, node 0/11/CPU0) within the timeout period (100 seconds) 
+
+
+2019-09-14 13:55:38
+<166>420: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:18.932 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 7 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:55:40
+<166>422: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:20.188 UTC: esd[200]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 3 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:55:44
+<166>424: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:26:26.195 UTC: shelfmgr[244]: %PLATFORM-SHELFMGR-6-INFO_LOG : 0/11/CPU0 is operational 
+
+
+2019-09-14 13:55:51
+<165>426: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/0, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>428: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/47, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>430: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/46, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>432: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/45, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>434: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/44, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>436: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/43, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>438: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/42, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>440: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/41, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>442: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/40, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>444: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/39, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>446: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/38, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>448: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/37, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>450: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/36, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>452: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/35, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>454: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/34, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>456: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/33, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>458: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/32, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>460: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/31, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>462: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/30, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>464: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/29, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>466: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/28, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>468: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/27, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>470: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/26, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>472: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/25, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>474: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/24, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>476: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/23, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>478: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/22, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>480: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/21, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>482: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/20, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>484: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/19, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>486: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/18, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>488: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/17, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>490: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/16, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>492: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/15, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>494: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/14, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>496: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/13, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>498: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/12, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>500: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/11, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>502: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/10, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>504: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/9, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>506: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/8, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>508: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/7, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>510: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/6, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>512: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/5, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>514: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/4, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>516: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/3, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>518: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/2, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<165>520: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:26:31.598 UTC: ifmgr[119]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/11/0/1, changed state to Administratively Down 
+
+
+2019-09-14 13:55:51
+<166>522: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:32.072 UTC: npu_drvr[215]: %PLATFORM-OFA-6-INFO : NPU #0 Initialization Completed 
+
+
+2019-09-14 13:55:52
+<166>524: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.496 UTC: npu_drvr[215]: %PLATFORM-OFA-6-INFO : NPU #1 Initialization Completed 
+
+
+2019-09-14 13:55:53
+<165>526: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/0, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>528: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/1, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>530: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/2, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>532: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/3, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>534: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/4, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>536: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/5, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>538: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/6, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>540: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/7, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>542: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/8, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>544: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/9, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>546: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/10, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>548: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/11, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>550: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/12, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>552: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/13, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>554: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/14, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>556: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/15, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>558: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/16, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>560: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/17, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>562: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/18, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>564: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/19, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>566: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/20, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>568: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/21, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>570: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/22, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>572: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/23, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>574: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/24, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>576: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/25, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>578: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/26, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>580: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/27, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>582: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/28, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>584: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/29, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>586: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/30, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>588: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/31, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>590: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/32, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>592: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/33, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>594: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/34, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>596: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/35, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>598: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/36, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>600: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/37, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>602: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/38, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>604: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/39, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>606: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/40, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>608: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/41, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>610: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/42, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>612: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/43, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>614: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/44, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>616: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/45, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>618: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/46, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>620: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.700 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/47, changed state to Down 
+
+
+2019-09-14 13:55:53
+<165>622: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/0, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>624: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/2, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>626: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/3, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>628: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/4, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>630: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/6, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>632: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/7, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>634: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/8, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>636: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/10, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>638: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/11, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>640: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/12, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>642: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/14, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>644: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/15, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>646: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/16, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>648: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/17, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>650: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/18, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>652: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/19, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>654: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/20, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>656: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/21, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>658: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/22, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>660: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/23, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>662: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/27, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>664: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/28, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>666: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/29, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>668: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/30, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>670: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/31, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>672: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/34, changed state to Up 
+
+
+2019-09-14 13:55:53
+<165>674: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:33.703 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface Optics0/0/0/35, changed state to Up 
+
+
+2019-09-14 13:55:53
+<166>676: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:26:35.120 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 18 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:55:54
+<165>678: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:35.757 UTC: ntpdc[199]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 0.993059(s) 
+
+
+2019-09-14 13:55:58
+<166>680: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:40.300 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 3 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:56:00
+<166>682: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:41.808 UTC: esd[145]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 7 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:56:02
+<167>684: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:26:43.829 UTC: sysdb_shared_sc[255]: %SYSDB-SYSDB-7-INFO : client 'npu_drvr' attempted duplicate registration for 'cfg/gl/ether/pfc/' from active node: rc 0x0 (Success) 
+
+
+2019-09-14 13:56:02
+<166>686: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:26:44.310 UTC: shelfmgr[244]: %PLATFORM-SHELFMGR-6-INFO_LOG : 0/0/CPU0 is operational 
+
+
+2019-09-14 13:56:10
+<165>688: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/0, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>690: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/47, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>692: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/46, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>694: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/45, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>696: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/44, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>698: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/43, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>700: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/42, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>702: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/41, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>704: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/40, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>706: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/39, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>708: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/38, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>710: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/37, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>712: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/36, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>714: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/35, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>716: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/34, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>718: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/33, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>720: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/32, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>722: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/31, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>724: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/30, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>726: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/29, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>728: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/28, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>730: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/27, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>732: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/26, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>734: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/25, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>736: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/24, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>738: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/23, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>740: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/22, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>742: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/21, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>744: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/20, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>746: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/19, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>748: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/18, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>750: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/17, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>752: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/16, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>754: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/15, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>756: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/14, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>758: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/13, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>760: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/12, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>762: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/11, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>764: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/10, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>766: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/9, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>768: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/8, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>770: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/7, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>772: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/6, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>774: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/5, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>776: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/4, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>778: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/3, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>780: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/2, changed state to Administratively Down 
+
+
+2019-09-14 13:56:10
+<165>782: f3a-r1-pod6 LC/0/0/CPU0:Sep 14 01:26:51.527 UTC: ifmgr[220]: %PKT_INFRA-LINK-5-CHANGED : Interface HundredGigE0/0/0/1, changed state to Administratively Down 
+
+
+2019-09-14 13:56:11
+<163>784: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:26:52.949 UTC: instorch[375]: %INFRA-INSTALL-3-NODE_UNRESPONSIVE : Node 0/RP1/CPU0 is not responding. 
+
+
+2019-09-14 13:56:11
+<164>786: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:26:52.956 UTC: instorch[375]: %INFRA-INSTALL-4-NODES_DROPPED : The following nodes will no longer take part in the ongoing install operation: 0/RP1/CPU0 
+
+
+2019-09-14 13:56:28
+<164>788: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:10.050 UTC: shelfmgr[244]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS banner - (Cisco 8000(R) Series BIOS Ver 1.15 Primary). 
+
+
+2019-09-14 13:56:31
+<164>790: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:13.189 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :CLEAR :: Fabric Plane-0 DOWN 
+
+
+2019-09-14 13:56:31
+<165>792: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:13.189 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5697] : Plane 0 state changed to UP 
+
+
+2019-09-14 13:56:31
+<164>794: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:13.190 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-2 :CLEAR :: Fabric Plane-2 DOWN 
+
+
+2019-09-14 13:56:31
+<165>796: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:13.190 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5697] : Plane 2 state changed to UP 
+
+
+2019-09-14 13:56:41
+<164>798: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:23.188 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :DECLARE :: Fabric Plane-0 MCAST_DOWN 
+
+
+2019-09-14 13:56:41
+<165>800: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:23.188 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5697] : Plane 0 state changed to MCAST_DOWN 
+
+
+2019-09-14 13:56:41
+<164>802: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:23.189 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-2 :DECLARE :: Fabric Plane-2 MCAST_DOWN 
+
+
+2019-09-14 13:56:41
+<165>804: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:23.189 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5697] : Plane 2 state changed to MCAST_DOWN 
+
+
+2019-09-14 13:56:41
+<164>806: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:23.501 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-0 :CLEAR :: Fabric Plane-0 MCAST_DOWN 
+
+
+2019-09-14 13:56:41
+<165>808: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:23.501 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5697] : Plane 0 state changed to UP 
+
+
+2019-09-14 13:56:42
+<164>810: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:24.514 UTC: fsdbagg[247]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :FABRIC-PLANE-2 :CLEAR :: Fabric Plane-2 MCAST_DOWN 
+
+
+2019-09-14 13:56:43
+<165>812: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:24.514 UTC: fsdbagg[247]: úBRIC-FSDB_AGG-5-PLANE_UPDOWN : [5697] : Plane 2 state changed to UP 
+
+
+2019-09-14 13:56:44
+<161>814: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:25.602 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:56:49
+<166>816: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:30.951 UTC: instorch[375]: %INFRA-INSTALL-6-ACTION_COMPLETE : Apply by reload 12.1 complete 
+
+
+2019-09-14 13:57:00
+<161>818: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:42.512 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:12
+<161>820: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:27:54.235 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:20
+<166>76884: f3a-r2-pod6 RP/0/RP0/CPU0:Sep 14 08:27:08.932 UTC: SSHD_[68092]: %SECURITY-SSHD-6-INFO_REKEY : Server initiated time rekey for session 21 , session_rekey_count = 71 
+
+
+2019-09-14 13:57:21
+<161>822: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:02.717 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:21
+<161>824: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:02.968 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:22
+<161>826: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:03.643 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:26
+<161>828: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:07.616 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:30
+<166>830: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:12.089 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 19 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:30
+<166>832: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:12.089 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_UP : The physical link state of the control ethernet switch port 19 has changed. New Link state UP, Admin state: UP 
+
+
+2019-09-14 13:57:32
+<161>834: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:14.340 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:34
+<166>836: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:05.409 UTC: devc-conaux-con_con[117]: %MGBL-TTY-6-ISSU_NFN_REG : Registration for ISSU notification on STANDBY (tty_server_main), 0x0, 'Success' Successful 
+
+
+2019-09-14 13:57:35
+<166>838: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.559 UTC: esd[299]: %INFRA-ESD-6-SWITCH_OPERATIONAL : All configuration is complete and switch is fully operational 
+
+
+2019-09-14 13:57:35
+<166>840: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 32 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>842: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_UP : The physical link state of the control ethernet switch port 32 has changed. New Link state UP, Admin state: UP 
+
+
+2019-09-14 13:57:35
+<166>844: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 28 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>846: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 25 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>848: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 22 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>850: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 21 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>852: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 20 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>854: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 19 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>856: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 18 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>858: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.561 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 11 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>860: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 11 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-14 13:57:35
+<166>862: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 10 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>864: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 9 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:35
+<166>866: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 8 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>868: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 7 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>870: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 6 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>872: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 5 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>874: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 4 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>876: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 3 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:35
+<166>878: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 2 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 13:57:36
+<166>880: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 1 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:36
+<166>882: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:17.562 UTC: esd[299]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 0 has changed. New Admin state: UP, Link state DOWN 
+
+
+2019-09-14 13:57:37
+<166>884: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:19.417 UTC: obflmgr[171]: %PLATFORM-OBFL-6-INFO : Mounted OBFL directory for 0/RP1/CPU0 
+
+
+2019-09-14 13:57:38
+<161>886: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:20.339 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:42
+<161>888: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:23.716 UTC: npu_drvr[320]: úBRIC-NPU_DRVR-1-PACIFIC_ERROR : [6194] : [PACIFIC A0]: For asic 8 : A0 Errata: Observed RX CODE errors on link 178 , This is expected if you have A0 asic versions in the system and do triggers like OIR, reload etc. 
+
+
+2019-09-14 13:57:42
+<166>890: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:24.600 UTC: rmf_svr[370]: %HA-REDCON-6-GO_STANDBY : this card going standby, location RP/0/RP1/CPU0 
+
+
+2019-09-14 13:57:43
+<166>892: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:25.161 UTC: rmf_svr[348]: %HA-REDCON-6-STANDBY_CONNECTION_UP : connection to standby card is UP, location RP0/RP0/CPU0  
+
+
+2019-09-14 13:57:44
+<167>894: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:25.892 UTC: sysdb_shared_sc[152]: %SYSDB-SYSDB-7-INFO : client 'npu_drvr' attempted duplicate registration for 'cfg/gl/ether/pfc/' from active node: rc 0x0 (Success) 
+
+
+2019-09-14 13:57:44
+<162>896: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:26.381 UTC: instorch[375]: %INFRA-INSTALL-2-UNEXPECTED_NODE_DURING_OP : The node 0/RP1/CPU0 unexpectedly booted during the current install operation. The node will be automatically re-imaged to recover. 
+
+
+2019-09-14 13:57:45
+<166>76886: f3a-r2-pod6 RP/0/RP0/CPU0:Sep 14 08:27:33.136 UTC: SSHD_[68661]: %SECURITY-SSHD-6-INFO_REKEY : Server initiated time rekey for session 39 , session_rekey_count = 44 
+
+
+2019-09-14 13:57:45
+<162>898: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:27.154 UTC: rmf_svr[348]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :CLEAR :0/RP0/CPU0:  
+
+
+2019-09-14 13:57:47
+<166>900: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:28.768 UTC: obflmgr[171]: %PLATFORM-OBFL-6-INFO : Unmounted OBFL directory for 0/RP1/CPU0 
+
+
+2019-09-14 13:57:57
+<162>902: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:39.409 UTC: tamsvcs_tamm[149]: %SECURITY-TAMSVCS-2-TPM_DB_CORRUPT :  TAM detected its databse key changed or database corrupt. Erasing all secure objects as a mitigation and recovery.  
+
+
+2019-09-14 13:57:58
+<163>904: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:39.685 UTC: ifmgr[348]: %PKT_INFRA-LINK-3-UPDOWN : Interface MgmtEth0/RP1/CPU0/0, changed state to Down 
+
+
+2019-09-14 13:57:58
+<165>906: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:39.685 UTC: ifmgr[348]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface MgmtEth0/RP1/CPU0/0, changed state to Down 
+
+
+2019-09-14 13:57:58
+<166>908: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:39.686 UTC: cfgmgr-rp[195]: %MGBL-CONFIG-6-OIR_RESTORE : Configuration for node '0/RP1/0' has been restored. 
+
+
+2019-09-14 13:57:58
+<163>910: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:39.690 UTC: ifmgr[348]: %PKT_INFRA-LINK-3-UPDOWN : Interface MgmtEth0/RP1/CPU0/0, changed state to Up 
+
+
+2019-09-14 13:57:58
+<165>912: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:39.691 UTC: ifmgr[348]: %PKT_INFRA-LINEPROTO-5-UPDOWN : Line protocol on Interface MgmtEth0/RP1/CPU0/0, changed state to Up 
+
+
+2019-09-14 13:58:07
+<162>926: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:49.090 UTC: instorch[375]: %INFRA-INSTALL-2-NODE_DOWN : Node 0/RP1/CPU0 went down unexpectedly. This node will be held down and reloaded at the end of the transaction.  The transaction may be able to continue on the remaining nodes. 
+
+
+2019-09-14 13:58:08
+<163>928: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:49.202 UTC: clustermgr[227]: %OS-TIMER-3-MGDTIMER : Unitialized timer, set context, timer = (nil)  : clustermgr : (PID=3855) :  -Traceback= 7fdbe9aed57d 7fdbe9aef5e9 7fdbe6a029cd 7fdbe6a03c16 7fdbe69fbd96 7fdbe6a03ca1 7fdbe69feb3f 7fdbe69fed7e 7fdbea75ac2d
+
+
+2019-09-14 13:58:08
+<163>930: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:49.210 UTC: ipv6_connected[1148]: %ROUTING-RIB_LIB-3-ERR_LOCK_FATAL : rib_client_handle_bind_failure Pthread disconnect, unexpected fatal error [Success] 
+
+
+2019-09-14 13:58:08
+<163>932: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:49.211 UTC: ipv6_rib[1139]: %ROUTING-RIB-3-LWM_REPLY : Failed to send reply to client - Invalid argument 
+
+
+2019-09-14 13:58:08
+<163>934: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:49.257 UTC: ipv4_rump[1160]: %ROUTING-RUMP-3-RIB_FAIL : RIB failure for Sync (connection open, RIB down) 
+
+
+2019-09-14 13:58:08
+<163>936: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:28:50.219 UTC: ipv6_rump[1161]: %ROUTING-RUMP-3-RIB_FAIL : RIB failure for Sync (connection open, RIB down) 
+
+
+2019-09-14 13:58:10
+<162>938: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:28:51.562 UTC: rmf_svr[348]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :DECLARE :0/RP0/CPU0:  
+
+
+2019-09-14 13:58:25
+<163>940: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:29:07.184 UTC: nrssvr[280]: %OS-nrs-3-INTERNAL : nrs_set_standby_ready failed with return code: rc 0x16, Invalid argument  : nrssvr : (PID=7650) :  -Traceback= 557246ee37b3 557246ee39b6 7f0026f5ae05 7f00275db5ff 7f00275e8df4 557246ee7b43 557246ee2263
+
+
+2019-09-14 13:58:27
+<167>942: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:29:08.687 UTC: nrssvr[280]: %OS-RDS-7-GSM_FAIL : GSM for STATUS_MSG Failed for Handle=0x4000000100000082, to (g:7d1/n:0/p:5844), errno=62 
+
+
+2019-09-14 13:58:27
+<163>944: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:29:08.856 UTC: processmgr[51]: %OS-SYSMGR-3-ERROR : Shutdown already in Progress.Duplicate request.Ignoring  
+
+
+2019-09-14 13:58:27
+<165>946: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:29:08.722 UTC: ntpdc[134]: %IP-IP_NTP-5-CLOCK_UPDATE : Clock changed by source DLRSC node by  an offset 1.328598(s) 
+
+
+2019-09-14 13:58:27
+<162>948: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:29:08.949 UTC: instorch[375]: %INFRA-INSTALL-2-UNEXPECTED_NODE_DURING_OP : The node 0/RP1/CPU0 unexpectedly booted during the current install operation. The node will be automatically re-imaged to recover. 
+
+
+2019-09-14 13:58:27
+<163>950: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:29:08.950 UTC: shelfmgr[244]: %PLATFORM-SHELFMGR-3-OP_FAIL : Failed to Reload 0/RP1/CPU0: Reload in progress 
+
+
+2019-09-14 13:58:27
+<163>952: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:29:08.950 UTC: shelfmgr[244]: %PLATFORM-SHELFMGR-3-ERROR : Bulk Reload Failed 
+
+
+2019-09-14 13:58:30
+<162>954: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:29:11.560 UTC: rmf_svr[348]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :CLEAR :0/RP0/CPU0:  
+
+
+2019-09-14 13:59:07
+<163>956: f3a-r1-pod6 RP/0/RP1/CPU0:Sep 14 01:29:49.195 UTC: gsp[375]: %OS-gsp-3-SPURIOUS_NODE_DOWN : GSP received spurious node down from rsi 0x2000 reason 2. Reload of this node is needed to recover 
+
+
+2019-09-14 14:01:24
+<166>4: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:30:24.165 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_LINK_DOWN : The physical link state of the control ethernet switch port 19 has changed. New Link state DOWN, Admin state: UP 
+
+
+2019-09-14 14:01:24
+<162>3: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:30:22.604 UTC: rmf_svr[348]: %PKT_INFRA-FM-2-FAULT_CRITICAL : ALARM_CRITICAL :RP-RED-LOST-PNP :DECLARE :0/RP0/CPU0:  
+
+
+2019-09-14 14:01:24
+<164>1: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:30:06.015 UTC: esdma[154]: %PKT_INFRA-FM-4-FAULT_MINOR : ALARM_MINOR :ESDMA-ESD-CONN-ERR :DECLARE :0/RP1/RP_SW:  
+
+
+2019-09-14 14:01:24
+<164>7: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:31:17.861 UTC: shelfmgr[244]: %PLATFORM-CPA_INTF_SHELFMGR-4-BIOS_WARNING : BIOS has detected a warning condition for 0/RP1/CPU0: BIOS banner - (Cisco 8000(R) Series BIOS Ver 1.15 Primary). 
+
+
+2019-09-14 14:01:24
+<166>5: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:30:41.704 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_DOWN : The admin state of the control ethernet switch port 18 has changed. New Admin state: DOWN, Link state DOWN 
+
+
+2019-09-14 14:01:24
+<164>2: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:30:20.101 UTC: shelfmgr[244]: %PLATFORM-SHELFMGR-4-CARD_RELOAD : Reloading 0/RP1/CPU0: Install requested reload 
+
+
+2019-09-14 14:01:24
+<166>6: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:30:42.923 UTC: esd[225]: %INFRA-ESD-6-PORT_STATE_CHANGE_ADMIN_UP : The admin state of the control ethernet switch port 18 has changed. New Admin state: UP, Link state UP 
+
+
+2019-09-14 14:01:39
+<166>16: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:32:20.551 UTC: exec[67400]: %SECURITY-LOGIN-6-AUTHEN_SUCCESS : Successfully authenticated user 'cafyauto' from 'console' on 'con0_RP0_CPU0' 
+
+
+2019-09-14 14:02:20
+<166>18: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:33:01.626 UTC: dumper[227]: %OS-COREHELPER-6-START : dump_core starts, only one core is dumped at a time 
+
+
+2019-09-14 14:02:24
+<166>20: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:33:06.266 UTC: dumper[227]: %OS-COREHELPER-6-START : dump_core starts, only one core is dumped at a time 
+
+
+2019-09-14 14:02:25
+<167>22: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:33:06.824 UTC: sysdb_mc[188]: %SYSDB-SMC-7-TIMEOUT : Message #0x20004317 state:0x13fe5326, gid(1012),destined for all local, timed out having received 3 of 4 expected responses: returning received responses to client pm_collector. Check for potential transport issues within the system, or deadlocked SysDB processes. 
+
+
+2019-09-14 14:02:33
+<166>24: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:33:14.706 UTC: dumper[227]: %OS-COREHELPER-6-START : dump_core starts, only one core is dumped at a time 
+
+
+2019-09-14 14:02:44
+<166>26: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:33:25.585 UTC: dumper[227]: %OS-COREHELPER-6-START : dump_core starts, only one core is dumped at a time 
+
+
+2019-09-14 14:02:44
+<166>28: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:33:26.169 UTC: dumper[227]: %OS-COREHELPER-6-CORE_COPIED : Copied core nrssvr_5849.by.user.20190914-013325.node0_RP0_CPU0.758a1.core.gz to 0/RP0/CPU0:harddisk: 
+
+
+2019-09-14 14:02:44
+<166>30: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:33:26.224 UTC: dumper[227]: %OS-COREHELPER-6-DELETE_CORE : Deleted core file nrssvr_5849.by.user.20190914-013325.node0_RP0_CPU0.758a1.core.gz. 
+
+
+2019-09-14 14:04:19
+<166>32: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:35:01.509 UTC: SSHD_[66205]: %SECURITY-SSHD-6-INFO_SUCCESS : Successfully authenticated user 'cafyauto' from '6.1.16.61' on 'vty0'(cipher 'aes128-ctr', mac 'hmac-sha2-256') 
+
+
+2019-09-14 14:04:23
+<165>34: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:35:04.664 UTC: run_cmd[66251]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-14 14:04:23
+<165>36: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:35:04.723 UTC: run_cmd[66251]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-14 14:04:23
+<165>38: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:35:05.273 UTC: run_cmd[66278]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty0 
+
+
+2019-09-14 14:04:23
+<165>40: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:35:05.326 UTC: run_cmd[66278]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty0 
+
+
+2019-09-14 14:08:07
+<163>42: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:38:49.149 UTC: bfd[1154]: %L2-BFD-3-NSR_SM_TIMEOUT : BFD NSR SM state time out in Master, SEM: HA, State: Peer-Unavailable 
+
+
+2019-09-14 14:12:53
+<166>44: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:43:35.484 UTC: SSHD_[67240]: %SECURITY-SSHD-6-INFO_SUCCESS : Successfully authenticated user 'cafyauto' from '6.1.21.131' on 'vty1'(cipher 'aes128-ctr', mac 'hmac-sha2-256') 
+
+
+2019-09-14 14:12:57
+<165>46: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:43:38.627 UTC: run_cmd[67273]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:12:57
+<165>48: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:43:38.679 UTC: run_cmd[67273]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:12:57
+<165>50: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:43:39.230 UTC: run_cmd[67300]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:12:57
+<165>52: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:43:39.283 UTC: run_cmd[67300]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:20
+<166>54: f3a-r1-pod6 LC/0/11/CPU0:Sep 14 01:44:02.093 UTC: obflmgr[250]: %PLATFORM-OBFL-6-INFO_DU : Disk usage is at 88% on /mnt/obfl 
+
+
+2019-09-14 14:13:25
+<165>56: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:07.443 UTC: run_cmd[67818]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:25
+<165>58: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:07.494 UTC: run_cmd[67818]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:26
+<165>60: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:08.053 UTC: run_cmd[67845]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:26
+<165>62: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:08.107 UTC: run_cmd[67845]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:32
+<165>64: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:13.653 UTC: run_cmd[67970]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:32
+<165>66: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:13.704 UTC: run_cmd[67970]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:32
+<165>68: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:14.258 UTC: run_cmd[67998]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:32
+<165>70: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:14.309 UTC: run_cmd[67998]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:38
+<165>72: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:19.866 UTC: run_cmd[68207]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:38
+<165>74: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:19.916 UTC: run_cmd[68207]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:38
+<165>76: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:20.471 UTC: run_cmd[68273]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:38
+<165>78: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:20.522 UTC: run_cmd[68273]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:44
+<165>80: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:26.079 UTC: run_cmd[69564]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:44
+<165>82: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:26.131 UTC: run_cmd[69564]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:45
+<165>84: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:26.684 UTC: run_cmd[69618]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:45
+<165>86: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:26.740 UTC: run_cmd[69618]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:45
+<165>88: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:27.284 UTC: run_cmd[65553]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:45
+<165>90: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:27.335 UTC: run_cmd[65553]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:51
+<165>92: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:32.899 UTC: run_cmd[67356]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:51
+<165>94: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:32.955 UTC: run_cmd[67356]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:13:56
+<165>96: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:38.520 UTC: run_cmd[68168]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:13:57
+<165>98: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:38.588 UTC: run_cmd[68168]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:02
+<165>100: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:44.124 UTC: run_cmd[67941]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:02
+<165>102: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:44.185 UTC: run_cmd[67941]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:08
+<165>104: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:49.750 UTC: run_cmd[66283]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:08
+<165>106: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:49.849 UTC: run_cmd[66283]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:13
+<165>108: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:55.332 UTC: run_cmd[67919]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:13
+<165>110: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:44:55.386 UTC: run_cmd[67919]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:19
+<165>112: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:00.942 UTC: run_cmd[65755]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:19
+<165>114: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:00.997 UTC: run_cmd[65755]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:25
+<165>116: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:06.561 UTC: run_cmd[68767]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:25
+<165>118: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:06.643 UTC: run_cmd[68767]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:30
+<165>120: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:12.163 UTC: run_cmd[68606]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:30
+<165>122: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:12.215 UTC: run_cmd[68606]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:36
+<165>124: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:18.036 UTC: run_cmd[69294]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:36
+<165>126: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:18.096 UTC: run_cmd[69294]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:42
+<165>128: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:23.582 UTC: run_cmd[66062]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:42
+<165>130: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:23.636 UTC: run_cmd[66062]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:47
+<165>132: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:29.190 UTC: run_cmd[66184]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:47
+<165>134: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:29.243 UTC: run_cmd[66184]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:53
+<165>136: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:34.795 UTC: run_cmd[66217]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:53
+<165>138: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:34.844 UTC: run_cmd[66217]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:53
+<164>140: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:35.504 UTC: logger[66247]: %OS-SYSLOG-4-LOG_WARNING : PAM has completed on-demand data collection for installsetup-test_install_source-zjqxypvjkwlqm5nmlwq3ce4c2c8. All files are archived and saved at 0/RP0/CPU0  : harddisk:/cisco_support/PAM-spitfire-ondemand-xr-installsetup-test_install_source-zjqxypvjkwlqm5nmlwq3ce4c2c8-2019Sep14-014512.tgz (Please copy tgz file out of the router and send to Cisco support. This tgz file will be removed after 14 days.) 
+
+
+2019-09-14 14:14:58
+<165>142: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:40.409 UTC: run_cmd[66368]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:58
+<165>144: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:40.469 UTC: run_cmd[66368]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:14:59
+<165>146: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:41.013 UTC: run_cmd[66395]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:14:59
+<165>148: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:41.067 UTC: run_cmd[66395]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:16
+<165>150: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:57.646 UTC: run_cmd[66484]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:16
+<165>152: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:57.711 UTC: run_cmd[66484]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:16
+<165>154: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:58.249 UTC: run_cmd[66511]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:16
+<165>156: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:58.301 UTC: run_cmd[66511]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:17
+<165>158: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:58.855 UTC: bash_cmd[66538]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:17
+<165>160: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:59.015 UTC: bash_cmd[66538]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:17
+<165>162: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:59.456 UTC: bash_cmd[66595]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:18
+<165>164: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:45:59.602 UTC: bash_cmd[66595]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:19
+<165>166: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:00.904 UTC: bash_cmd[66656]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:20
+<165>168: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:02.090 UTC: bash_cmd[66656]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:21
+<165>170: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:02.710 UTC: bash_cmd[66714]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:22
+<165>172: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:03.867 UTC: bash_cmd[66714]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:22
+<165>174: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:04.314 UTC: bash_cmd[66772]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:22
+<165>176: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:04.477 UTC: bash_cmd[66772]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:23
+<165>178: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:04.916 UTC: bash_cmd[66847]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:23
+<165>180: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:05.252 UTC: bash_cmd[66847]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:24
+<165>182: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:05.723 UTC: bash_cmd[66905]: %INFRA-INFRA_MSG-5-RUN_LOGIN : User cafyauto logged into shell from vty1 
+
+
+2019-09-14 14:15:24
+<165>184: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:05.868 UTC: bash_cmd[66905]: %INFRA-INFRA_MSG-5-RUN_LOGOUT : User cafyauto logged out of shell from vty1 
+
+
+2019-09-14 14:15:24
+<166>186: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:06.003 UTC: SSHD_[67240]: %SECURITY-SSHD-6-INFO_USER_LOGOUT : User 'cafyauto' from '6.1.21.131' logged out on 'vty1' 
+
+
+2019-09-14 14:15:27
+<166>188: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:09.194 UTC: instorch[375]: %INFRA-INSTALL-6-ACTION_BEGIN : Commit 12 started 
+
+
+2019-09-14 14:15:43
+<166>190: f3a-r1-pod6 RP/0/RP0/CPU0:Sep 14 01:46:24.698 UTC: instorch[375]: %INFRA-INSTALL-6-ACTION_COMPLETE : Commit 12 complete 
+
+
