@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  loganalyzerserver:
+    image: kamalvasudevan/loganalyzer
+    ports:
+      - "8080:8080"
+    networks:
+      - cmad-net
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    image: mysql 
+    volumes:
+      - db-data:/var/lib/docker/volumes/db_vol
+    networks:
+      - cmad-net
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root@123
+      MYSQL_DATABASE: CMAD
+      MYSQL_USER: root
+
+  loganalyzerclient:
+    image: kamalvasudevan/loganlyzerclient
+    ports:
+      - "3000:3000"
+    networks:
+      - cmad-net
+    depends_on:
+      - loganalyzerserver 
+
+networks:
+  cmad-net:
+    driver: bridge
+
+volumes:
+  db-data:
