@@ -1,0 +1,73 @@
+pipeline{
+      agent none
+      stages{
+          stage('build'){
+              agent{
+                docker{
+		    image 'maven:3.6.1-jdk-8-slim'
+		    args '-v $HOME/.m2:/root/.m2' }
+		}
+              when { 
+                changeset pattern: "log-analyzer/src/main/java/com/cisco/cmad/**"
+               }
+              	steps{
+                  echo 'building users app'
+ 		  dir('log-analyzer/'){ 
+			sh 'mvn compile'
+		  } 
+		}
+          }
+          stage('test'){
+            agent{
+              docker{
+		  image 'maven:3.6.1-jdk-8-slim'
+		  args '-v $HOME/.m2:/root/.m2' }
+	      } 
+              when { 
+                changeset pattern: "log-analyzer/src/main/java/com/cisco/cmad/**"
+              }	      
+	      steps{
+		echo 'running unit tests on users app' 
+		dir('log-analyzer/'){
+                  sh 'mvn clean test'
+                }
+	     } 
+	  }
+          stage('package'){
+            agent{
+	      docker{
+		image 'maven:3.6.1-jdk-8-slim' 
+		args '-v $HOME/.m2:/root/.m2' }
+	      } 
+            when {
+                branch 'master'
+                changeset pattern: "log-analyzer/src/main/java/com/cisco/cmad/**"
+            }
+	    steps{
+		echo 'packaging users app into a jarfile' 
+		dir('log-analyzer'){
+		    sh 'mvn package -DskipTests'
+		    archiveArtifacts artifacts: 'log-analyzer/target/log-analyzer-1.0.0-SNAPSHOT.jar', fingerprint: true 
+	   	}
+	    }
+	 } 
+	 stage('docker-package'){
+	    agent any
+	    steps{
+	      echo 'Packaging users app with docker'
+	      script{
+		docker.withRegistry('https://index.docker.io/v1/', 'dockerlogin') {
+		   def usersImage = docker.build("kamalvasudevan/loganalyzer:v${env.BUILD_ID}", "log-analyzer")
+		   usersImage.push()
+		   usersImage.push("latest")
+		}
+	     }
+          }
+        }
+      }
+      post{
+         always{
+             echo 'the job is complete'
+         }
+      } 
+  }
