@@ -13,7 +13,7 @@ services:
   mysqldb:
     image: mysql 
     volumes:
-      - db-data:/var/lib/docker/volumes/db_vol
+      - my-db:/var/lib/mysql
     networks:
       - cmad-net
     ports:
@@ -37,4 +37,4 @@ networks:
     driver: bridge
 
 volumes:
-  db-data:
+  my-db:
